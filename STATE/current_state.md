@@ -8,7 +8,7 @@
 
 | Property | Value |
 |----------|-------|
-| Version | 1.2 |
+| Version | 1.3 |
 | Last Updated | 2025-01-XX |
 | Updated By | Z |
 
@@ -18,117 +18,124 @@
 
 | Metric | Value |
 |--------|-------|
-| **Phase** | Bootstrap - Day 1 Complete |
-| **Focus** | Garden Business Planning |
+| **Phase** | Bootstrap - Day 1 Extended |
+| **Focus** | Interview Prep + Project Ideas |
 | **Active Projects** | 1 (Garden Business) |
 | **Pending Decisions** | 0 |
 | **Blockers** | None |
-| **Next Milestone** | Garden location + Interview prep |
+| **Next Milestone** | Interview tomorrow, then Week 1 |
 
 ---
 
-## ✅ All Day 1 Tasks Complete
+## ✅ Completed Today
 
+### Repository Setup
 | Task | Status |
 |------|--------|
 | Create repository | ✅ Done |
 | Push to GitHub | ✅ Done |
-| Create START.md | ✅ Done |
-| Create CONSTITUTION.md | ✅ Done & APPROVED |
-| Create BYLAWS.md | ✅ Done & APPROVED |
-| Create SUCCESSION.md | ✅ Done |
-| Create PERMISSIONS.yaml | ✅ Done |
-| Create AI_BOM.md | ✅ Done |
-| Create BOOTSTRAP_SEQUENCE.md | ✅ Done |
-| Create AI_SYSTEM files | ✅ Done |
-| Create Garden Business project files | ✅ Done |
-| Document Harley's pronouns (she/her) | ✅ Done |
+| CONSTITUTION.md approved | ✅ Done |
+| BYLAWS.md approved | ✅ Done |
+
+### Interview Prep (Tomorrow!)
+| Task | Status |
+|------|--------|
+| Talking points prepared | ✅ Done |
+| Key questions identified | ✅ Done |
+| Objection responses ready | ✅ Done |
+| Follow-up plan created | ✅ Done |
+| One-pager created | ✅ Done |
+| Visual aids generated | ✅ Done |
+
+### Mock Designs
+| Task | Status |
+|------|--------|
+| Garden layout concept | ✅ Done |
+| Therapeutic programming structure | ✅ Done |
+| Olla irrigation placement | ✅ Done |
+| Budget estimates | ✅ Done |
+| Partnership model visual | ✅ Done |
+
+### Documentation
+| Task | Status |
+|------|--------|
+| PROJECT_IDEAS.md created | ✅ Done |
+| REPO_ANALYSIS.md created | ✅ Done |
+| Design concept documented | ✅ Done |
 
 ---
 
-## Governance Status
-
-| Document | Status | Notes |
-|----------|--------|-------|
-| CONSTITUTION.md | ✅ APPROVED | Now IMMUTABLE |
-| BYLAWS.md | ✅ APPROVED | Mutable by precedent |
-| SUCCESSION.md | ✅ Active | Successor position vacant |
-
----
-
-## Active Projects
-
-### Garden Business (Phase 1)
-
-| Aspect | Status | Notes |
-|--------|--------|-------|
-| Planning | Ready to Start | Awaiting location |
-| Location | Not Identified | Harley to designate |
-| Design | Not Started | Awaiting location |
-| Supplies | Not Researched | Awaiting design |
-| Partnership | Exploring | Eric Haas interview tomorrow |
-
----
-
-## Interview Prep - TOMORROW
+## Interview Tomorrow — Ready
 
 **With:** Eric Haas (Primal Nature retreats)
 **Pitch:** "Gardening is recommended for psychedelic integration"
 
-**Talking Points Needed:**
-- [ ] MAPS research connection
-- [ ] Garden business model
-- [ ] Partnership opportunity
+**Materials Ready:**
+- ✅ Talking points
+- ✅ Key questions to ask
+- ✅ Objection responses
+- ✅ One-pager (RESEARCH/one_pager.md)
+- ✅ Garden concept visual (RESEARCH/garden_concept_visual.png)
+- ✅ Partnership model visual (RESEARCH/partnership_model_visual.png)
 
 ---
 
-## Repository Status
+## Repo Status
 
-**URL:** https://github.com/RootlessOnline/RootlessOnline
+| Category | Status | Completion |
+|----------|--------|------------|
+| Governance | ✅ Complete | 100% |
+| State Tracking | ✅ Complete | 100% |
+| AI System | ✅ Complete | 100% |
+| Projects | 🔄 Partial | 25% (1 of 4) |
+| Research | 🔄 Partial | 40% |
+| WIKI | ❌ Empty | 0% |
+| EXPERTISE | ❌ Empty | 0% |
+| MONITORING | ❌ Empty | 0% |
+| TEMPLATES | ❌ Empty | 0% |
 
-| Metric | Value |
-|--------|-------|
-| Files | 19+ |
-| Commits | 2+ |
-| Branches | main |
-| Status | ✅ Live |
+**Overall: ~40% complete**
 
 ---
 
-## Context for AIs
+## What's Missing (Priority Order)
 
-### What AIs Should Know Right Now
+### High Priority
+1. **EXPERTISE/harley_gardening.md** — Capture your knowledge
+2. **PROJECTS/collective_app/** — Document app concept
+3. **RESEARCH/horticultural_therapy.md** — MAPS details
 
-1. **Repository is live:** https://github.com/RootlessOnline/RootlessOnline
-2. **Governance approved:** CONSTITUTION and BYLAWS are official
-3. **Next focus:** Garden location + interview prep for Eric Haas
-4. **Harley's pronouns:** she/her
+### Medium Priority
+4. **WIKI/how_to/** — Basic guides
+5. **PROJECTS/community_tools/** — Document tools concept
+6. **PROJECTS/political_party/** — Document party concept
+7. **TEMPLATES/** — Standard templates
 
-### What AIs Should Do
+---
 
-1. Read START.md, CONSTITUTION.md, BYLAWS.md ✅
-2. Understand governance model ✅
-3. Prepare for interview support
-4. Be ready for coordination tasks
+## Questions for Harley
+
+1. **Project ideas from ChatGPT:** What ideas did you discuss that I should add?
+2. **Collective App:** What features do you envision?
+3. **Community Tools:** What's the core concept?
+4. **Political Party:** Any specific policy ideas?
+5. **Garden location:** Where should the first garden be?
+6. **Your expertise:** What gardening knowledge should I capture?
 
 ---
 
 ## Communication Queue
 
-### Messages for Harley
+### From Harley (Waiting)
+- [ ] Project ideas from ChatGPT discussions
+- [ ] Garden location preference
+- [ ] Expertise to capture
+- [ ] App/Tools/Party concept details
 
-- [x] Repository created and live
-- [x] CONSTITUTION.md approved
-- [x] BYLAWS.md approved
-- [x] Pronouns documented (she/her)
-- [ ] **Garden location preferences?**
-- [ ] Any expertise to capture?
-
-### Messages for ChatGPT (via Z)
-
-- [ ] Architecture review of governance structure
-- [ ] Research olla irrigation suppliers in Netherlands
-- [ ] Prepare talking points for Eric Haas interview
+### For ChatGPT (Via Z)
+- [ ] Netherlands political party requirements
+- [ ] Olla suppliers research
+- [ ] App platform recommendations
 
 ---
 
@@ -136,13 +143,12 @@
 
 | Time | Action | By |
 |------|--------|-----|
-| Day 1 | Repository created on GitHub | Z |
-| Day 1 | All core documents created | Z |
-| Day 1 | Initial commit pushed | Z |
-| Day 1 | Repository live | Z |
-| Day 1 | CONSTITUTION.md approved | Harley |
-| Day 1 | BYLAWS.md approved | Harley |
-| Day 1 | Pronouns documented | Harley |
+| Day 1 | Repository created | Z |
+| Day 1 | Governance approved | Harley |
+| Day 1 | Interview prep created | Z |
+| Day 1 | Mock designs created | Z |
+| Day 1 | Project ideas captured | Z |
+| Day 1 | Repo analysis completed | Z |
 
 ---
 
@@ -158,7 +164,7 @@
 ---
 Generated by: Z (Manager AI)
 Context versions: START.md v1.0, CONSTITUTION.md v1.0, BYLAWS.md v1.0
-Decisions referenced: D000, D001, D002, D003, D004, D005, D006
+Decisions referenced: D001-D006
 Timestamp: 2025-01-XX
 ---
 ```
