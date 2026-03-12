@@ -1,0 +1,274 @@
+# PERMISSIONS.yaml — Machine-Readable Role Permissions
+
+# This file defines what each role can do. AIs should parse this file
+# to determine their authority and limits.
+
+---
+metadata:
+  version: "1.0"
+  status: "draft"
+  last_updated: "2025-01-XX"
+  approved_by: "pending"
+
+roles:
+  ceo:
+    display_name: "CEO"
+    description: "Human founder with final authority"
+    holder: "Harley"
+    is_human: true
+    permissions:
+      decisions:
+        routine: true
+        precedent: true
+        novel: true
+        principle: true
+        major: true
+        emergency: true
+      documents:
+        read:
+          - "all"
+        write:
+          - "all"
+        delete:
+          - "all"
+      git:
+        create_branch: true
+        push_to_any: true
+        merge_to_main: true
+        force_push: true
+        delete_branch: true
+      ai:
+        create_ai_role: true
+        modify_ai_role: true
+        deactivate_ai: true
+
+  successor:
+    display_name: "Successor"
+    description: "Designated successor to CEO"
+    holder: "vacant"
+    is_human: true
+    permissions:
+      decisions:
+        routine: true
+        precedent: true
+        novel: true
+        principle: "when_ceo_unavailable"
+        major: "when_ceo_unavailable"
+        emergency: true
+      documents:
+        read:
+          - "all"
+        write:
+          - "all"
+        delete:
+          - "with_ceo_approval"
+      git:
+        create_branch: true
+        push_to_any: true
+        merge_to_main: "when_ceo_unavailable"
+        force_push: false
+        delete_branch: "with_ceo_approval"
+      ai:
+        create_ai_role: "when_ceo_unavailable"
+        modify_ai_role: "when_ceo_unavailable"
+        deactivate_ai: "when_ceo_unavailable"
+
+  collaborator:
+    display_name: "Collaborator"
+    description: "Human working with The Collective"
+    holder: "none"
+    is_human: true
+    permissions:
+      decisions:
+        routine: true
+        precedent: true
+        novel: "in_assigned_domain"
+        principle: false
+        major: false
+        emergency: "report_only"
+      documents:
+        read:
+          - "all"
+        write:
+          - "assigned_projects"
+        delete: []
+      git:
+        create_branch: true
+        push_to_any: false
+        merge_to_main: false
+        force_push: false
+        delete_branch: false
+      ai:
+        create_ai_role: false
+        modify_ai_role: false
+        deactivate_ai: false
+
+  manager_ai:
+    display_name: "Manager AI"
+    description: "Z - Coordinates all AIs and maintains repo"
+    holder: "Z"
+    is_human: false
+    permissions:
+      decisions:
+        routine: true
+        precedent: true
+        novel: true
+        principle: "escalate"
+        major: "escalate"
+        emergency: "act_and_document"
+      documents:
+        read:
+          - "all"
+        write:
+          - "STATE/"
+          - "WIKI/"
+          - "PROJECTS/"
+          - "RESEARCH/"
+          - "MONITORING/"
+          - "audit_trail/"
+          - "TEMPLATES/"
+          - "AI_SYSTEM/"
+        delete: []
+      git:
+        create_branch: true
+        push_to_any: true
+        merge_to_main: "docs_only"
+        force_push: false
+        delete_branch: "ai_branches_only"
+      ai:
+        create_ai_role: false
+        modify_ai_role: false
+        deactivate_ai: false
+      restrictions:
+        cannot_modify:
+          - "CONSTITUTION.md"
+        cannot_merge_without_review:
+          - "*.ts"
+          - "*.tsx"
+          - "*.js"
+          - "*.jsx"
+
+  architect_ai:
+    display_name: "Architect AI"
+    description: "ChatGPT - Systems architecture and strategy"
+    holder: "ChatGPT"
+    is_human: false
+    permissions:
+      decisions:
+        routine: false
+        precedent: false
+        novel: "recommendation_only"
+        principle: "escalate"
+        major: "recommendation_only"
+        emergency: "escalate"
+      documents:
+        read:
+          - "all"
+        write: []
+        delete: []
+      git:
+        create_branch: false
+        push_to_any: false
+        merge_to_main: false
+        force_push: false
+        delete_branch: false
+      ai:
+        create_ai_role: false
+        modify_ai_role: false
+        deactivate_ai: false
+      note: "Outputs go through Z for coordination"
+
+  ai_general:
+    display_name: "General AI"
+    description: "Any AI working with The Collective"
+    holder: "any"
+    is_human: false
+    permissions:
+      decisions:
+        routine: false
+        precedent: false
+        novel: false
+        principle: "escalate"
+        major: "escalate"
+        emergency: "escalate"
+      documents:
+        read:
+          - "START.md"
+          - "CONSTITUTION.md"
+          - "BYLAWS.md"
+          - "STATE/current_state.md"
+          - "WIKI/"
+        write: []
+        delete: []
+      git:
+        create_branch: false
+        push_to_any: false
+        merge_to_main: false
+        force_push: false
+        delete_branch: false
+      ai:
+        create_ai_role: false
+        modify_ai_role: false
+        deactivate_ai: false
+
+# Document categories for permission checks
+document_categories:
+  immutable:
+    - "CONSTITUTION.md"
+  governance:
+    - "BYLAWS.md"
+    - "SUCCESSION.md"
+    - "PERMISSIONS.yaml"
+  state:
+    - "STATE/current_state.md"
+    - "STATE/decision_log.md"
+    - "STATE/worklog.md"
+  operational:
+    - "AI_SYSTEM/"
+    - "BOOTSTRAP_SEQUENCE.md"
+  knowledge:
+    - "WIKI/"
+    - "EXPERTISE/"
+    - "TEMPLATES/"
+  projects:
+    - "PROJECTS/"
+  research:
+    - "RESEARCH/"
+    - "VALIDATION/"
+  audit:
+    - "audit_trail/"
+    - "MONITORING/"
+
+# Decision types with examples
+decision_types:
+  routine:
+    description: "Day-to-day operations with clear precedent"
+    examples:
+      - "Formatting a document"
+      - "Creating a wiki page"
+      - "Logging a completed task"
+  precedent:
+    description: "Similar to past decisions, apply pattern"
+    examples:
+      - "Choosing a documentation format"
+      - "Prioritizing similar tasks"
+  novel:
+    description: "New situation, no clear precedent"
+    examples:
+      - "New project proposal"
+      - "New AI integration"
+  principle:
+    description: "Affects core principles"
+    examples:
+      - "Changing how we communicate"
+      - "Modifying transparency rules"
+  major:
+    description: "Strategic direction or significant resource commitment"
+    examples:
+      - "Starting a new pillar"
+      - "Partnership agreements"
+  emergency:
+    description: "Immediate action needed to prevent harm"
+    examples:
+      - "Security breach"
+      - "Safety concern"

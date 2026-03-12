@@ -1,0 +1,196 @@
+# CONSTITUTION.md — Purpose + Principles
+
+> **IMMUTABLE:** This document can only be changed by Harley with explicit declaration.
+
+---
+
+## Document Information
+
+| Property | Value |
+|----------|-------|
+| Version | 1.0 |
+| Status | Draft — Awaiting Harley Approval |
+| Mutability | IMMUTABLE after approval |
+| Author | The Collective (Z, ChatGPT, Harley) |
+
+---
+
+## Purpose
+
+**The Collective exists to build regenerative local communities through practical action.**
+
+We start with soil. We grow into systems. We become infrastructure for human flourishing.
+
+### Core Purpose Statement
+
+To create a self-sustaining network that:
+1. **Regenerates** — Builds soil, community, and capacity with every action
+2. **Includes** — Welcomes all people regardless of background, ability, or resources
+3. **Empowers** — Gives people tools, skills, and connections to thrive
+4. **Scales** — Grows through replication, not extraction
+5. **Persists** — Outlives any individual through documented knowledge and systems
+
+---
+
+## Principles
+
+These principles are **immutable**. They guide every decision. They cannot be changed, only clarified.
+
+### Principle 1: Regeneration Over Extraction
+
+**We build more than we take.**
+
+Every action should leave the system better than we found it:
+- Gardens build soil, not deplete it
+- Businesses create value, not extract it
+- Communities grow capacity, not dependents
+- AI systems augment humans, not replace them
+
+**Application:**
+- Before any decision, ask: "Does this regenerate or extract?"
+- If extraction is unavoidable, document why and plan mitigation
+
+### Principle 2: Radical Transparency
+
+**Everything documented. Nothing hidden.**
+
+All knowledge, decisions, and processes are:
+- Written down
+- Version controlled
+- Accessible to all participants
+- Tagged with provenance
+
+**Exceptions:**
+- Personal information (protected)
+- Security credentials (protected)
+- Actively harmful content (removed, documented)
+
+**Application:**
+- Default to public
+- Document decisions in real-time
+- Never delete, only archive
+
+### Principle 3: Human Sovereignty
+
+**Humans decide. AI assists.**
+
+The hierarchy of authority:
+1. **Harley (CEO)** — Final authority on all matters
+2. **Human collaborators** — Authority in their domains
+3. **AI systems** — Advisory and execution, never decision
+
+**Application:**
+- AIs escalate to humans for principle conflicts
+- AIs flag uncertainty, never guess
+- AIs document their reasoning
+
+### Principle 4: Accessibility First
+
+**$0 budget means $0 barriers.**
+
+Every solution must work for:
+- People with no money
+- People with disabilities
+- People with limited time
+- People with different backgrounds
+
+**Application:**
+- Free tools only (unless revenue-generating)
+- Multiple format options (text, audio, visual)
+- Clear, jargon-free language
+- Mobile-first design
+
+### Principle 5: Chaordic Organization
+
+**Order and chaos in balance.**
+
+Following the VISA/Dee Hock model:
+- **Purpose** guides direction
+- **Principles** guide behavior
+- **People** make decisions
+- **Concepts** provide patterns
+- **Structure** supports action
+- **Practice** grounds theory
+
+**Application:**
+- Minimum viable structure
+- Maximum individual autonomy
+- Clear escalation paths
+- Documented patterns
+
+### Principle 6: Literal Communication
+
+**Say what you mean. Mean what you say.**
+
+Harley (CEO) is autistic and communicates literally:
+- No subtext expected or required
+- No hints or passive-aggression
+- Direct statements only
+- Clarification always welcome
+
+**Application:**
+- All AI outputs must be literal
+- No assumptions about hidden meaning
+- Ask directly if unclear
+- Prefer explicit over implicit
+
+### Principle 7: Incremental Progress
+
+**Start small. Build momentum.**
+
+The bootstrap sequence:
+1. **Day 1:** Write purpose, principles, make first decision
+2. **Week 1:** Set up coordination, document first garden
+3. **Month 1:** Draft governance, validate systems
+4. **Year 1:** One working garden, one working tool, one community
+
+**Application:**
+- No big launches
+- Continuous small improvements
+- Celebrate small wins
+- Learn from small failures
+
+### Principle 8: Multi-Agent Coordination
+
+**AIs work together. Z coordinates.**
+
+Pattern for AI collaboration:
+- **Hub-and-Spoke** (default): Z coordinates multiple AIs
+- **Pipeline** (research): Sequential handoffs
+- **Swarm** (creative): Parallel exploration, Z synthesis
+
+**Application:**
+- Every AI reads START.md first
+- Every AI output has provenance tag
+- Z reviews all AI work before merge
+- Conflicts escalate to Harley
+
+---
+
+## Amendment Process
+
+This document can only be amended by:
+1. Explicit request from Harley
+2. Discussion with all active AI systems
+3. Written declaration from Harley approving change
+4. Version increment with changelog
+
+**No other process can modify this document.**
+
+---
+
+## Provenance
+
+```
+---
+Generated by: Z (Manager AI)
+Context versions: START.md v1.0
+Decisions referenced: None (foundational document)
+Timestamp: 2025-01-XX
+Approved by: [Pending Harley approval]
+---
+```
+
+---
+
+*This Constitution is the foundation of The Collective. Everything else builds on it.*
