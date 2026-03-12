@@ -51,16 +51,12 @@
 
 ---
 
-## 🏜️ DESERT RESTORATION (Phase 2 - RESEARCH)
+## 🏜️ DESERT RESTORATION (Phase 2 - ON HOLD)
 
 ### Research Phase
 | Task | Status | Owner | Notes |
 |------|--------|-------|-------|
-| ChatGPT Session 1: Global status | ⏳ Ready | Harley → ChatGPT | Template ready |
-| ChatGPT Session 2: Technical specs | ⏳ Ready | Harley → ChatGPT | Template ready |
-| ChatGPT Session 3: Location deep dives | ⏳ Ready | Harley → ChatGPT | Template ready |
-| ChatGPT Session 4: Funding strategy | ⏳ Ready | Harley → ChatGPT | Template ready |
-| ChatGPT Session 5: Implementation | ⏳ Ready | Harley → ChatGPT | Template ready |
+| ChatGPT 5-session research | ⏸️ Paused | - | Template ready in AI_SYSTEM/ |
 
 ### Location Research
 | Location | Status | Notes |
@@ -182,10 +178,11 @@
 |---------|-------|------------|-------------|
 | Governance | Complete | 100% | - |
 | Garden Business | Phase 1 | 50% | Interview tomorrow |
-| Desert Restoration | Phase 2 | 60% | ChatGPT sessions |
+| Desert Restoration | Phase 2 | 60% | ⏸️ ON HOLD |
 | Collective Hub | Phase 2 | 70% | Technical architecture |
 | Community Tools | Phase 3 | 0% | Define concept |
 | Political Party | Phase 4 | 30% | Netherlands research |
+| **NEW PROJECT** | ? | 0% | Waiting for Harley |
 
 ---
 
