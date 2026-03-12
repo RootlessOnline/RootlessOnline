@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://blog.langchain.com/how-we-built-agent-builders-memory-system",
+    "name": "How we built Agent Builder's memory system",
+    "snippet": "21-Feb-2026 — In this article we cover our rationale for prioritizing a memory system, technical details of how we built it, learnings from building the ...",
+    "host_name": "blog.langchain.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.langchain.com/oss/python/concepts/memory",
+    "name": "Memory overview - Docs by LangChain",
+    "snippet": "For AI agents, semantic memory is often used to personalize applications by remembering facts or concepts from past interactions. Semantic memory is different ...",
+    "host_name": "docs.langchain.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/sopaco/ai-agent-memory-management-system-architecture-design-evolution-from-stateless-to-intelligent-2c4h",
+    "name": "AI Agent Memory Management System Architecture Design: Evolution from Stateless to Intelligent",
+    "snippet": "28-Dec-2025 — Scalability: Support massive memory storage and efficient queries ... LangChain Memory, MemGPT. Language, Rust, Python, Python. Vector Database ...",
+    "host_name": "dev.to",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.falkordb.com/blog/building-ai-agents-with-memory-langchain",
+    "name": "Build AI Agents with Memory: LangChain + FalkorDB",
+    "snippet": "03-Mar-2025 — Learn how to create AI agents with memory using LangChain and FalkorDB. Enhance your AI applications with context-aware, graph-powered ...",
+    "host_name": "www.falkordb.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.chanl.ai/blog/ai-agent-memory-session-context-long-term-knowledge",
+    "name": "AI Agent Memory: From Session Context to Long-Term Knowledge | Chanl Blog",
+    "snippet": "3 days ago — Build AI agent memory systems from scratch in TypeScript. Covers memory types (session, episodic, semantic, procedural), architectures (buffer, ...",
+    "host_name": "www.chanl.ai",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

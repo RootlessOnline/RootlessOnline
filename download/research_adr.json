@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://adr.github.io",
+    "name": "Architectural Decision Records (ADRs) | Architectural Decision Records",
+    "snippet": "An Architectural Decision (AD) is a justified design choice that addresses a functional or non-functional requirement that is architecturally significant.",
+    "host_name": "adr.github.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/joelparkerhenderson/architecture-decision-record",
+    "name": "Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation",
+    "snippet": "Rationale: Explain the reasons for doing the particular AD. · Specific: Each ADR should be about one AD, not multiple ADs.\nAn architecture decision record (ADR) is a document that captures an important architectural decision made along with its context and consequences. An architecture decision (AD) is a software design choice that addresses a significant requirement.",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@nolomokgosi/basics-of-architecture-decision-records-adr-e09e00c636c6",
+    "name": "Basics of Architecture Decision Records (ADR) | by Letlhogonolo Mokgosi",
+    "snippet": "According to Michael Nygard on #1, an ADR should include the title, status, context, decision, and consequences. Additionally, I suggest adding ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record",
+    "name": "Maintain an architecture decision record (ADR) - Azure",
+    "snippet": "10 Oct 2024 — The ADR documents all key decisions, including alternatives that you ruled out, for architecturally significant requirements. The log ...\nLearn about the benefits of creating an architecture decision record in the design process to document decisions, justifications, and implications.",
+    "host_name": "learn.microsoft.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://csse6400.uqcloud.net/handouts/adr.pdf",
+    "name": "Architectural Decision Records",
+    "snippet": "2025 — ADRs are usually kept with the key project documentation. The argument is often made that this should be within the version control system (e.g..",
+    "host_name": "csse6400.uqcloud.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

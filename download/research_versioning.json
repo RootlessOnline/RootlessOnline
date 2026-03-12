@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://semver.org",
+    "name": "Semantic Versioning 2.0.0 | Semantic Versioning",
+    "snippet": "We propose a simple set of rules and requirements that dictate how version numbers are assigned and incremented.",
+    "host_name": "semver.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.npmjs.com/about-semantic-versioning",
+    "name": "About semantic versioning - npm Docs",
+    "snippet": "We recommend publishing a new version of the package with an updated version number in the package.json file that follows the semantic versioning spec.",
+    "host_name": "docs.npmjs.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/agoda-engineering/automating-versioning-and-releases-using-semantic-release-6ed355ede742",
+    "name": "Automating Versioning and Releases Using Semantic Release | by Yasser Shaikh | Agoda Engineering & Design | Medium",
+    "snippet": "Semantic Versioning (also called SemVer) is a specification, a simple set of rules that dictates how version numbers of your projects are ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/nils-tekampe/semverdoc",
+    "name": "nils-tekampe/semverdoc: Semantic Versioning for Documents - GitHub",
+    "snippet": "Semantic Versioning for Documents and Meaningful Manual Version Control. I often work with documents that require proper versioning and ...",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://legaldocumentsimplifier.com/blog/document-version-control-best-practices",
+    "name": "Document Version Control Best Practices",
+    "snippet": "ISO 9001 documentation often uses semantic versioning to track quality control document changes, ensuring a clear audit trail for compliance.",
+    "host_name": "legaldocumentsimplifier.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.readthedocs.com/platform/latest/versions.html",
+    "name": "Versions — Read the Docs user documentation",
+    "snippet": "The most recent semantic tag maps to the stable version. Semantic versioning allows “normal” version numbers like 1.4.2 , as well as pre-releases like this ...",
+    "host_name": "docs.readthedocs.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

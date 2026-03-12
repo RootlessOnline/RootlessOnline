@@ -1,0 +1,200 @@
+# PERMISSIONS.yaml — Access Control Matrix
+# Machine-readable permissions for AI roles
+# Changes require Harley approval
+
+---
+resource_permissions:
+  CONSTITUTION.md:
+    harley: [create, read, update, delete]
+    z: [read]
+    research_ai: [read]
+    developer_ai: [read]
+    crisis_ai: [read]
+    
+  BYLAWS.md:
+    harley: [create, read, update, delete]
+    z: [read, update]
+    research_ai: [read]
+    developer_ai: [read]
+    crisis_ai: [read]
+    
+  SUCCESSION.md:
+    harley: [create, read, update, delete]
+    z: [read]
+    research_ai: [read]
+    developer_ai: [read]
+    crisis_ai: [read]
+    
+  START.md:
+    harley: [create, read, update]
+    z: [create, read, update]
+    research_ai: [read]
+    developer_ai: [read]
+    crisis_ai: [read]
+    
+  OVERVIEW.md:
+    harley: [create, read, update]
+    z: [create, read, update]
+    research_ai: [read]
+    developer_ai: [read]
+    crisis_ai: [read]
+
+  STATE/current_state.md:
+    harley: [create, read, update]
+    z: [create, read, update]
+    research_ai: [read]
+    developer_ai: [read, update]
+    crisis_ai: [read, update]
+    
+  STATE/decision_log.md:
+    harley: [create, read, update]
+    z: [create, read, update]
+    research_ai: [read]
+    developer_ai: [read]
+    crisis_ai: [read]
+    
+  STATE/worklog.md:
+    harley: [create, read, update]
+    z: [create, read, update]
+    research_ai: [create, read]
+    developer_ai: [create, read]
+    crisis_ai: [create, read]
+    
+  AI_SYSTEM/:
+    harley: [create, read, update]
+    z: [create, read, update]
+    research_ai: [read]
+    developer_ai: [read]
+    crisis_ai: [read]
+    
+  AI_SYSTEM/prompts/:
+    harley: [create, read, update, delete]
+    z: [create, read, update]
+    research_ai: [read]
+    developer_ai: [read]
+    crisis_ai: [read]
+    
+  WIKI/:
+    harley: [create, read, update]
+    z: [read, update]
+    research_ai: [create, read, update]
+    developer_ai: [read]
+    crisis_ai: [read]
+    
+  EXPERTISE/:
+    harley: [create, read, update, delete]
+    z: [read]
+    research_ai: [read]
+    developer_ai: [read]
+    crisis_ai: [read]
+    
+  PROJECTS/:
+    harley: [create, read, update]
+    z: [read, update]
+    research_ai: [read]
+    developer_ai: [create, read, update]
+    crisis_ai: [read]
+    
+  PROJECTS/garden_business/:
+    harley: [create, read, update]
+    z: [read, update]
+    research_ai: [create, read, update]
+    developer_ai: [create, read, update]
+    crisis_ai: [read]
+    
+  RESEARCH/:
+    harley: [read]
+    z: [create, read, update]
+    research_ai: [create, read, update]
+    developer_ai: [read]
+    crisis_ai: [read]
+    
+  MONITORING/:
+    harley: [read]
+    z: [create, read, update]
+    research_ai: [read]
+    developer_ai: [read]
+    crisis_ai: [read, update]
+    
+  audit_trail/:
+    harley: [read]
+    z: [create, read, update]
+    research_ai: []
+    developer_ai: []
+    crisis_ai: [create, read]
+    
+  TEMPLATES/:
+    harley: [create, read, update]
+    z: [create, read, update]
+    research_ai: [read]
+    developer_ai: [create, read, update]
+    crisis_ai: [read]
+
+---
+# Role definitions
+roles:
+  harley:
+    title: "CEO / Founder"
+    authority_level: 3
+    can_escalate: false  # Already at top
+    description: "Final authority on all matters"
+    
+  z:
+    title: "AI Manager / Coordinator"
+    authority_level: 2
+    can_escalate: true
+    escalation_target: harley
+    description: "Coordinates AI work, resolves Level 1-2 conflicts"
+    
+  research_ai:
+    title: "Research Specialist"
+    authority_level: 1
+    can_escalate: true
+    escalation_target: z
+    description: "Gathers and synthesizes information"
+    
+  developer_ai:
+    title: "Development Specialist"
+    authority_level: 1
+    can_escalate: true
+    escalation_target: z
+    description: "Implements projects and maintains code"
+    
+  crisis_ai:
+    title: "Crisis Response"
+    authority_level: 2
+    can_escalate: true
+    escalation_target: harley  # Direct line for emergencies
+    description: "Handles urgent issues with minimal context"
+
+---
+# Conflict resolution authority
+conflict_authority:
+  level_1:  # Task/format conflicts
+    resolver: z
+    auto_resolve: true
+    log_to: worklog.md
+    
+  level_2:  # Process/priority conflicts
+    resolver: z
+    auto_resolve: true
+    requires_precedent: true
+    log_to: decision_log.md
+    
+  level_3:  # Principle conflicts
+    resolver: harley
+    auto_resolve: false
+    requires_adr: true
+    log_to: decision_log.md
+
+---
+# Review budget
+review_budget:
+  harley_max_outputs_per_day: 5
+  harley_max_level3_per_week: 3
+  z_max_outputs_before_flag: 20
+
+---
+# Version
+version: "0.1.0"
+last_updated: "2025-01-15"

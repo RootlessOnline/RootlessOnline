@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://dev.to/thecodersden/design-decision-for-role-based-access-control-rbac-1b28",
+    "name": "Design Decision for Role-Based Access Control (RBAC)",
+    "snippet": "The Least Privilege Model states that actors should be granted the least possible set of permissions required for it to operate efficiently.",
+    "host_name": "dev.to",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pathlock.com/blog/role-based-access-control-rbac",
+    "name": "Role-Based Access Control (RBAC): A Comprehensive Guide - Pathlock",
+    "snippet": "RBAC (Role-Based Access Control) is a security model that restricts system access based on users' roles within an organization, ...",
+    "host_name": "pathlock.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.loginradius.com/blog/identity/design-effective-rbac-system",
+    "name": "Access Control Design for Scalable RBAC Systems - LoginRadius",
+    "snippet": "A: RBAC (Role-Based Access Control) is a method of managing access by assigning permissions to roles instead of individual users. It simplifies ...",
+    "host_name": "www.loginradius.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.osohq.com/learn/rbac-best-practices",
+    "name": "10 RBAC Best Practices You Should Know in 2025 - Oso",
+    "snippet": "Role-Based Access Control (RBAC) is an authorization approach that organizes access permissions into roles that can be assigned to users.",
+    "host_name": "www.osohq.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://softwareengineering.stackexchange.com/questions/348636/how-to-design-role-based-access-control",
+    "name": "How to design role based access control?",
+    "snippet": "I am trying to follow the role bases access control model to restrict what users can or cannot do in my system.",
+    "host_name": "softwareengineering.stackexchange.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@yashamansrivastava1710/building-scalable-and-maintainable-permission-systems-beyond-role-based-access-control-4f6560a3e696",
+    "name": "Building Scalable and Maintainable Permission Systems: Beyond Role",
+    "snippet": "This article explores the limitations of traditional role-based systems and highlights scalable, flexible alternatives for managing permissions effectively.",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

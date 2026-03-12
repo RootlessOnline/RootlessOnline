@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://docs.readme.com/main/docs/structuring-your-docs",
+    "name": "Structuring Your Documentation",
+    "snippet": "This pattern organizes documentation around common developer scenarios: Use Cases/ ├── User Management/ │ ├── Creating Users │ ├── Authentication ...",
+    "host_name": "docs.readme.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bensguide.substack.com/p/readme-driven-development",
+    "name": "Readme-driven development - by Ben Christel",
+    "snippet": "A readme is the minimum viable documentation to get your project off the ground. Plans are worthless, but planning is everything.",
+    "host_name": "bensguide.substack.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tom.preston-werner.com/2010/08/23/readme-driven-development",
+    "name": "Readme Driven Development - Tom Preston-Werner",
+    "snippet": "23 Aug 2010 — It's important to distinguish Readme Driven Development from Documentation Driven Development. RDD could be considered a subset or limited ...",
+    "host_name": "tom.preston-werner.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/gregmartinez44/readme-driven-development-373k",
+    "name": "README driven development",
+    "snippet": "25 May 2025 — Get started with your own README documents with this README template. Use specialized tools to create your README documents, like readme.so.\nPreston-Werner’s solution is README Driven Development (RDD). In open source and innersource projects, like the ones that you find on GitHub, GitLab, and Bitbucket, the README document is the project's welcome page.",
+    "host_name": "dev.to",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.welcometothejungle.com/en/articles/btc-readme-documentation-best-practices",
+    "name": "The Essential Sections for Better Documentation of Your README Project",
+    "snippet": "20 Nov 2019 — This article summarizes the appealing and essential things about README files, as well as the common pitfalls.",
+    "host_name": "www.welcometothejungle.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

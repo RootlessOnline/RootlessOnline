@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://keepachangelog.com/en/1.1.0",
+    "name": "Keep a Changelog",
+    "snippet": "Changelogs are for humans, not machines. · There should be an entry for every single version. · The same types of changes should be grouped.\nChangelogs are for humans, not machines . · There should be an entry for every single version. · The same types of changes should be grouped. Read more",
+    "host_name": "keepachangelog.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/agoda-engineering/automating-versioning-and-releases-using-semantic-release-6ed355ede742",
+    "name": "Automating Versioning and Releases Using Semantic Release | by Yasser Shaikh | Agoda Engineering & Design",
+    "snippet": "Semantic Versioning (also called SemVer) is a specification, a simple set of rules that dictates how version numbers of your projects are ...\nIn this post, I would like to discuss our experiences with trying out Semantic Release and how it has helped us better manage our versioning and release ... Read more",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/67170089/how-to-follow-semantic-versioning-and-keep-a-changelog-conventions-together",
+    "name": "How to follow Semantic Versioning and Keep a Changelog conventions together?",
+    "snippet": "Keep a Changelog is a wide-used convention that brings some guidelines about the maintenance of a CHANGELOG.md file in repositories managed over a VCS. ...\nKeep a Changelog is a wide-used convention that brings some guidelines about the maintenance of a CHANGELOG .md file in repositories managed over a VCS. Read more",
+    "host_name": "stackoverflow.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/devsatasurion/automate-changelogs-to-ease-your-release-282",
+    "name": "Automate CHANGELOGs to Ease your Release",
+    "snippet": "04-Apr-2023 — How to automate proper CHANGELOGs in software projects with many contributors. Includes suggested practices and tools for JavaScript or ...\n4 Apr 2023 — This blog post will walk you through how I automated the creation of quality changelogs in this project from our commits. Read more",
+    "host_name": "dev.to",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://oneuptime.com/blog/post/2026-01-25-semantic-versioning-automation/view",
+    "name": "How to Implement Semantic Versioning Automation",
+    "snippet": "Enforce commit format: Use commitlint to reject non-conforming commits. · Start at 0.x.x for new projects · Document breaking ...\n25 Jan 2026 — Learn how to automate semantic versioning in your projects using conventional commits and tools like semantic-release, ensuring consistent ...",
+    "host_name": "oneuptime.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

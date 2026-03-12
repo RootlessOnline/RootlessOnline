@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1odj1u8/auditing_ai_agents",
+    "name": "Auditing AI agents : r/AI_Agents",
+    "snippet": "Great question! Building accountability for autonomous agents means more than logs; you need reproducible runs and clear reasoning trails. One ...",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://kla.digital/blog/ai-agent-audit-trails",
+    "name": "AI Agent Audit Trails: From Logs to Evidence",
+    "snippet": "Feb 11, 2026 — Logs were sufficient when AI was experimental, when stakes were low, when auditors were not yet paying attention. Those days are ending.",
+    "host_name": "kla.digital",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.salesforce.com/blog/ai-accountability",
+    "name": "In a World of AI Agents, Who's Accountable for Mistakes?",
+    "snippet": "Feb 19, 2025 — AI accountability is critical: It builds trust, mitigates risk, and ensures compliance. Companies must be able to explain and justify AI's decisions.",
+    "host_name": "www.salesforce.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://galileo.ai/blog/ai-agent-compliance-governance-audit-trails-risk-management",
+    "name": "AI Agent Compliance & Governance in 2025 | Galileo",
+    "snippet": "Sep 19, 2025 — Unlike traditional application logs, agent audit trails preserve this decision lineage for accountability, debugging, and regulatory compliance.",
+    "host_name": "galileo.ai",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://latitude.so/blog/audit-logs-in-ai-systems-what-to-track-and-why",
+    "name": "Audit Logs in AI Systems: What to Track and Why",
+    "snippet": "Sep 29, 2025 — Audit logs are essential for AI systems to ensure accountability, security, and compliance. They record every action, from user logins to AI ...",
+    "host_name": "latitude.so",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ibm.com/think/insights/building-trustworthy-ai-agents-compliance-auditability-explainability",
+    "name": "Building trustworthy AI agents for compliance: The challenge of auditability and explainability",
+    "snippet": "This log provides transparency and an audit trail for complex decisions. The goal is to capture the “why” behind an agent's behavior, which is crucial for ...",
+    "host_name": "www.ibm.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

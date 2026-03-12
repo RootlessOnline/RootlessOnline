@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+    "name": "Effective context engineering for AI agents",
+    "snippet": "Sep 29, 2025 — Prompt engineering refers to methods for writing and organizing LLM instructions for optimal outcomes (see our docs for an overview and ...",
+    "host_name": "www.anthropic.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.04997",
+    "name": "[2404.04997] Adapting LLMs for Efficient Context Processing through Soft Prompt Compression",
+    "snippet": "2024 · Cited by 62 — This investigation presents an innovative framework that strategically tailors LLMs for streamlined context processing by harnessing the synergies among ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.jetbrains.com/research/2025/12/efficient-context-management",
+    "name": "Cutting Through the Noise: Smarter Context Management for LLM-Powered Agents",
+    "snippet": "Dec 1, 2025 — Allowing the context to grow without intervention leads to the risk that the context window of modern LLMs is quickly exceeded. In addition, an ...",
+    "host_name": "blog.jetbrains.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.gocodeo.com/post/context-window-optimization-through-prompt-engineering",
+    "name": "Context Window Optimization Through Prompt Engineering",
+    "snippet": "Jun 25, 2025 — Optimize LLM context windows with precision prompt engineering for faster, cheaper, scalable AI, tailored for developers building next-gen ...",
+    "host_name": "www.gocodeo.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://airbyte.com/agentic-data/ai-context-window-optimization-techniques",
+    "name": "5 AI Context Window Optimization Techniques",
+    "snippet": "Jan 16, 2026 — Prompt Compression. Prompt compression reduces context size through several techniques: Progressive summarization: Compresses conversation ...",
+    "host_name": "airbyte.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

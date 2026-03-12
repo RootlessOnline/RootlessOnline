@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://medium.com/data-science-collective/mcp-vs-a2a-building-bridges-between-ai-agents-f6b64be97a35",
+    "name": "MCP vs A2A: Building Bridges Between AI Agents | by Vatsal Saglani | Data Science Collective | Medium",
+    "snippet": "A2A implements a decentralized message-passing system. Agents exchange task messages through HTTP endpoints following JSON-RPC semantics. A task ...",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://microsoft.github.io/autogen/stable//user-guide/core-user-guide/design-patterns/handoffs.html",
+    "name": "Handoffs — AutoGen - Microsoft Open Source",
+    "snippet": "When an AI agent hands off a task to other agents, it also publishes a UserTask message. AgentResponse is a message published by the AI agents and the Human ...",
+    "host_name": "microsoft.github.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://getstream.io/blog/ai-agent-protocols",
+    "name": "Guide to AI Agent Protocols: MCP, A2A, ACP & More - GetStream.io",
+    "snippet": "Learn how AI agent protocols work, how they differ, and which ones are compatible. This is a clear guide to MCP, A2A, ACP, ANP, AP2, ...",
+    "host_name": "getstream.io",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://redis.io/blog/multi-agent-systems-coordinated-ai",
+    "name": "Multi-agent systems: Why coordinated AI beats going solo - Redis",
+    "snippet": "Peer-to-peer coordination. Peer-to-peer coordination lets agents communicate through message passing without central control. Agents collaborate ...",
+    "host_name": "redis.io",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/deep-dive-multi-agent-systems-communication-a2a-protocols-singh-ilnif",
+    "name": "Deep Dive: Multi-Agent Systems Communication & A2A Protocols for the Enterprise Cloud",
+    "snippet": "Communication Patterns in Multi-Agent Systems · Centralised Communication: All agent messages are routed through a central controller or hub.",
+    "host_name": "www.linkedin.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://diataxis.fr",
+    "name": "Diátaxis framework",
+    "snippet": "Diátaxis identifies four distinct needs, and four corresponding forms of documentation - tutorials, how-to guides, technical reference and explanation. It ... Read more\nDiátaxis identifies four distinct needs, and four corresponding forms of documentation - tutorials, how-to guides, technical reference and explanation. It places them in a systematic relationship, and proposes that documentation should itself be organised around the structures of those needs.",
+    "host_name": "diataxis.fr",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/evildmp/diataxis-documentation-framework/blob/main/tutorials-how-to.rst",
+    "name": "diataxis-documentation-framework/tutorials-how-to.rst at",
+    "snippet": "Diátaxis insists that what matters in documentation is the needs of the user, and it's by paying attention to this that we can correctly distinguish between ... Read more",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://idratherbewriting.com/blog/what-is-diataxis-documentation-framework",
+    "name": "What is Diátaxis and should you be using it with your",
+    "snippet": "Oct 18, 2023 — The Diátaxis approach to documentation organizes technical documentation into four types — tutorials , how-tos, reference , and explanation . Read more\nThe Diátaxis approach to documentation organizes technical documentation into four types — tutorials, how-tos, reference, and explanation. In this post, I compare Diátaxis to DITA, Information Mapping, and the Good Docs Project, explaining similarities and differences.",
+    "host_name": "idratherbewriting.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://edify.cr/insights/streamlining-technical-documentation-with-diataxis-framework",
+    "name": "Streamlining Technical Documentation with DIÁTAXIS",
+    "snippet": "Discover DIÁTAXIS, a pragmatic framework for technical documentation . Extensive information architecture includes learn how tutorials, how-to guides, ...",
+    "host_name": "edify.cr",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://onegoodtutorial.org/in-depth/reference-material",
+    "name": "In-Depth Guides: Writing Reference Material - One Good Tutorial",
+    "snippet": "The Diátaxis framework provides a schema for thinking about how the reference material in your documentation interrelate s with other elements, most notably your ... Read more",
+    "host_name": "onegoodtutorial.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.sequinstream.com/we-fixed-our-documentation-with-the-diataxis-framework",
+    "name": "We fixed our documentation with the Diátaxis framework",
+    "snippet": "Dec 6, 2024 — The four categories of docs pages: Tutorials ; How-to guides; Reference ; Explanation . How I'd break them down: Tutorials are lessons designed to ... Read more",
+    "host_name": "blog.sequinstream.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

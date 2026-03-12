@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://medium.com/@squadcast/building-a-resilient-on-call-framework-for-incident-responses-735eca1d6fa4",
+    "name": "Building a Resilient On-Call Framework for Incident",
+    "snippet": "This guide explores how to build a robust on-call framework for incident responses , essential components to include, and best practices to implement. Read more",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rootly.com/incident-response/support-levels",
+    "name": "Incident Response Support Levels: P1, P2, P3 Explained",
+    "snippet": "Escalation protocols strengthen reliability by moving incidents up the chain quickly without overwhelming responders or creating alert fatigue. Read more",
+    "host_name": "rootly.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.enisa.europa.eu/sites/default/files/publications/Incident_Management_guide.pdf",
+    "name": "Good Practice Guide for Incident Management - ENISA",
+    "snippet": "The main focus area of the guide is the incident handling process – the core service carried out by most CERTs – which involves the detection and registration ... Read more 110 pages",
+    "host_name": "www.enisa.europa.eu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/design-guides/incident-management",
+    "name": "Develop an Incident Management Practice to Recover",
+    "snippet": "Nov 26, 2025 — Specify which teams or individuals handle the incident based on type and severity. Include escalation paths for when initial responders can ... Read more",
+    "host_name": "learn.microsoft.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://oneuptime.com/blog/post/2026-01-30-incident-severity-definitions/view",
+    "name": "How to Build Incident Severity Definitions",
+    "snippet": "Jan 30, 2026 — A practical guide to defining incident severity levels that enable fast triage, clear escalation , and consistent response across your ...",
+    "host_name": "oneuptime.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.rippling.com/blog/incident-response-plan",
+    "name": "What Is An Incident Response Plan & How To Build One?",
+    "snippet": "Aug 21, 2025 — The plan also includes decision trees that help teams determine the severity of incidents and appropriate response levels. Communication ... Read more",
+    "host_name": "www.rippling.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

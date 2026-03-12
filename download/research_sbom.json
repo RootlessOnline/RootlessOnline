@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://arxiv.org/html/2506.03507v1",
+    "name": "Software Bill of Materials in Software Supply Chain Security: A Systematic Literature Review",
+    "snippet": "Jun 4, 2025 — This lack of harmonization undermines SBOM suitability for automated security tasks and reduces user trustworthiness in the generated documents.",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.skshieldus.com/download/files/download.do?o_fname=Headline_Open-source%20SW%20management%20plan%20using%20software%20bills%20of%20materials%20(SBOM).pdf&r_fname=20240927174216380.pdf",
+    "name": "Open-source SW management plan using software bills of materials (SBOM)",
+    "snippet": "Sep 27, 2024 — KO-11.0309. This is the software bill of materials (SBOM) attribute standard for open software supply chain management established by the Korea ...",
+    "host_name": "www.skshieldus.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cisa.gov/sites/default/files/2024-10/SBOM%20Framing%20Software%20Component%20Transparency%202024.pdf",
+    "name": "Framing Software Component Transparency: Establishing a Common Software Bill of Materials (SBOM)",
+    "snippet": "Oct 15, 2024 — This document addresses the creation and sharing of SBOMs, the roles of participants, and the integration of SBOMs with all Supply Chains. To ...",
+    "host_name": "www.cisa.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-software-1",
+    "name": "Software Security in Supply Chains: Software Bill of Materials (SBOM)",
+    "snippet": "May 3, 2022 — An SBOM as a “formal record containing the details and supply chain relationships of various components used in building software.",
+    "host_name": "www.nist.gov",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ntia.gov/page/software-bill-materials",
+    "name": "SOFTWARE BILL OF MATERIALS",
+    "snippet": "This resource describes how SBOM data can flow down the supply chain, and provides a small set of SBOM discovery and access options to support flexibility while ...",
+    "host_name": "www.ntia.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

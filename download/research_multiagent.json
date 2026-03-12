@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://medium.com/@roseserene/agentic-ai-autogpt-babyagi-and-autonomous-llm-agents-substance-or-hype-8fa5a14ee265",
+    "name": "Agentic AI: AutoGPT, BabyAGI, and Autonomous LLM Agents - Medium",
+    "snippet": "However, we also need to keep in mind Agentic AI's Lack of Transparency & Debuggability where Failures are hard to trace and Developers now ...",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S1566253525006712",
+    "name": "AI Agents vs. Agentic AI: A Conceptual taxonomy, applications and",
+    "snippet": "We further examine unique challenges in each paradigm including hallucination, brittleness, emergent behavior, and coordination failure, and propose targeted ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/1999-5903/17/9/404",
+    "name": "The Rise of Agentic AI: A Review of Definitions, Frameworks  - MDPI",
+    "snippet": "... (success/failure, timeouts, escalation). Evaluators or policy guards ... This allows for the identification of errors and abnormal behavior, allowing agents ...",
+    "host_name": "www.mdpi.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.softwareseni.com/why-forty-percent-of-multi-agent-ai-projects-fail-and-how-to-avoid-the-same-mistakes",
+    "name": "Why Forty Percent of Multi-Agent AI Projects Fail and How to Avoid the",
+    "snippet": "The MAST taxonomy identifies inter-agent misalignment (FC2) and task verification failures (FC3) as failure modes that don't exist in single- ...",
+    "host_name": "www.softwareseni.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchsquare.com/article/rs-8880566/v1.pdf",
+    "name": "[PDF] Multi Hop AI Agent Suite - Architecture - Research Square",
+    "snippet": "Idempotent execution semantics and controlled retry mechanisms ensure execution consistency even in the presence of failures, transient errors, ...",
+    "host_name": "www.researchsquare.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/state-ai-agents-2025-balancing-optimism-reality-vu-ha-keftc",
+    "name": "The State of AI Agents in 2025: Balancing Optimism with Reality",
+    "snippet": "Multiple agents can introduce new failure modes: they can miscommunicate, get stuck in dialogue loops, or amplify each other's errors. For ...",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://raghunitb.medium.com/why-multi-agent-systems-often-fail-in-practice-and-what-to-do-instead-890729ec4a03",
+    "name": "Why Multi-Agent Systems Often Fail in Practice (and What to Do Instead)",
+    "snippet": "Each agent needs to: Understand its role and boundaries; Communicate effectively with other agents; Handle failures and edge cases gracefully ... Missing: LangChain | Show results with: LangChain",
+    "host_name": "raghunitb.medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2505.10468v1",
+    "name": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications  - arXiv.org",
+    "snippet": "We further examine unique challenges in each paradigm including hallucination, brittleness, emergent behavior, and coordination failure and ...",
+    "host_name": "arxiv.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

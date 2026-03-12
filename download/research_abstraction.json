@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://medium.com/@azimruet28/abstraction-hiding-complexity-like-a-pro-a644bc53ee0d",
+    "name": "Abstraction: Hiding Complexity Like a Pro | by Azim - Medium",
+    "snippet": "Abstraction means hiding complex implementation details and showing only essential features. It's all about focusing on what an object does, not ... Missing: users | Show results with: users",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.coursera.org/articles/abstraction-layers",
+    "name": "What Are Abstraction Layers? - Coursera",
+    "snippet": "Data abstraction hides the complexity of how you store and structure your data, allowing you to view a simplified version that is easier to ...",
+    "host_name": "www.coursera.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/post/Should_we_hide_the_complexity_of_computer_systems_behind_layers_of_abstraction",
+    "name": "Should we hide the complexity of computer systems behind layers of",
+    "snippet": "Despite the philosophical nature of this question, the useful answer is no. It will serve no purpose to hide the complexity of computer systems ...",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/emeroid/abstraction-in-software-engineering-simplifying-complexity-for-efficient-solutions-30hj",
+    "name": "Abstraction in Software Engineering: Simplifying Complexity for Efficient",
+    "snippet": "Abstraction is a powerful principle in software engineering that helps simplify complex systems by focusing on essential features while hiding ...",
+    "host_name": "dev.to",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dmtopolog.com/complexity-4-abstraction",
+    "name": "Complexity part 4. Abstractions. | topolog's tech blog",
+    "snippet": "By hiding unnecessary details and organizing logic around meaningful concepts, they help us reason about systems more effectively and reduce ...",
+    "host_name": "dmtopolog.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/hiding-complexity-from-your-users-sam-goutsmit",
+    "name": "Hiding complexity from your users - LinkedIn",
+    "snippet": "That's what good abstraction looks like: complexity still exists, but the system takes ownership of it, not the user.",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

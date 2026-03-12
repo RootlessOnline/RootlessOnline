@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+    "name": "About the repository README file",
+    "snippet": "You can add a README file to your repository to tell other people why your project is useful, what they can do with your project , and how they can use it. Read more",
+    "host_name": "docs.github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories",
+    "name": "Best practices for repositories",
+    "snippet": "Create a README file . To make it easier for people to understand and navigate your work, we recommend that you create a README file for every repository. Read more",
+    "host_name": "docs.github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.freecodecamp.org/news/how-to-structure-your-readme-file",
+    "name": "How to Structure Your README File",
+    "snippet": "7 Nov 2025 — The README File is Not Just a Formality. Many beginners see the README as optional—something you add just before submitting your GitHub repo . Read more",
+    "host_name": "www.freecodecamp.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@fulton_shaun/readme-rules-structure-style-and-pro-tips-faea5eb5d252",
+    "name": "README Rules: Structure, Style, and Pro Tips",
+    "snippet": "A step-by-step guide to writing README files that are clear, helpful, and make your project look professional . Read more",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/banesullivan/README",
+    "name": "How to write a good README",
+    "snippet": "A good README should include a brief overview section with a paragraph or two explaining what the software does, how it works, and who made it. Read more",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/pwd9000/github-repository-best-practices-23ck",
+    "name": "GitHub Repository Best Practices",
+    "snippet": "7 Feb 2024 — In this blog, we'll discuss and look at my top 10 tips for best practices in managing GitHub repositories effectively. Read more",
+    "host_name": "dev.to",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
+    "name": "Basic writing and formatting syntax",
+    "snippet": "Headings. To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the hierarchy level and typeface ... Read more",
+    "host_name": "docs.github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/standard/standard/blob/master/README.md",
+    "name": "standard/README.md at master",
+    "snippet": "This module saves you (and others!) time in three ways: No configuration. The easiest way to enforce code quality in your project . No decisions to make. Read more",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

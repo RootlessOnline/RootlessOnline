@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+    "name": "Effective context engineering for AI agents - Anthropic",
+    "snippet": "Prompt engineering refers to methods for writing and organizing LLM instructions for optimal outcomes (see our docs for an overview and useful ...",
+    "host_name": "www.anthropic.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html",
+    "name": "Context Engineering for Coding Agents - martinfowler.com",
+    "snippet": "Almost all forms of AI coding context engineering ultimately involve a bunch of markdown files with prompts. I use “prompt” in the broadest ...",
+    "host_name": "martinfowler.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.morphllm.com/context-engineering",
+    "name": "Context Engineering: The Complete Guide for AI Coding Agents - Morph",
+    "snippet": "Prompt engineering is a subset. It focuses on how to phrase a single input. Context engineering focuses on what information the model has ...",
+    "host_name": "www.morphllm.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7372154521310932992-c71q",
+    "name": "\"Mastering Context Engineering for AI Systems\" | Addy Osmani posted on the topic | LinkedIn",
+    "snippet": "Context engineering manages the entire memory window, not just the prompt Modern tools like Cursor and Cline are already automating ...",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://natesnewsletter.substack.com/p/beyond-the-perfect-prompt-the-definitive",
+    "name": "Beyond the Perfect Prompt: The Definitive Guide to Context Engineering—The Next Revolution in Artificial Intelligence - Nate's Substack",
+    "snippet": "Current research documents 58 distinct prompting techniques for large language models and 40 techniques for other modalities. Prompt engineering ...",
+    "host_name": "natesnewsletter.substack.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instinctools.com/blog/context-engineering",
+    "name": "Context Engineering in AI: Techniques, Best Practices, and How It Differs From Prompt Engineering - instinctools",
+    "snippet": "Explore core context engineering techniques, best practices, and what it takes to implement context engineering for AI agents that hold up ...",
+    "host_name": "www.instinctools.com",
+    "rank": 5,
+    "date": "Mar 11, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://kinde.com/learn/ai-for-software-engineering/best-practice/ai-context-windows-engineering-around-token-limits-in-large-codebases",
+    "name": "AI Context Windows: Engineering Around Token Limits in Large Codebases - Kinde",
+    "snippet": "Rating 4.7 (40) An AI context window is the amount of information, measured in tokens, that a large language model (LLM) can process at one time. Think of it as the model's ...",
+    "host_name": "kinde.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://code.visualstudio.com/docs/copilot/guides/context-engineering-guide",
+    "name": "Set up a context engineering flow in VS Code",
+    "snippet": "Start small and iterate: Begin with minimal project context and gradually add detail based on observed AI behavior. Avoid context overload that can dilute focus ...",
+    "host_name": "code.visualstudio.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

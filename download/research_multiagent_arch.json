@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://arxiv.org/html/2601.13671v1",
+    "name": "The Orchestration of Multi-Agent Systems: Architectures, Protocols, and Enterprise Adoption",
+    "snippet": "Jan 20, 2026 — Orchestrated multi-agent systems represent the next stage in the evolution of artificial intelligence, where autonomous agents collaborate ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns",
+    "name": "AI Agent Orchestration Patterns - Azure Architecture Center",
+    "snippet": "Learn about fundamental orchestration patterns for AI agent architectures, including sequential, concurrent, group chat, handoff, and magentic patterns.",
+    "host_name": "learn.microsoft.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.o137.ai/en/blog/multi-agent-orchestration-architecture-patterns-complete-2026",
+    "name": "Multi-Agent Orchestration: Complete Architecture and Patterns - Origin 137",
+    "snippet": "Feb 19, 2026 — 4 architectures (Hub-and-Spoke, Pipeline, DAG, Swarm), Request-Reply, Publish-Subscribe, Saga patterns. Complete AI agent orchestration guide",
+    "host_name": "www.o137.ai",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@akankshasinha247/building-multi-agent-architectures-orchestrating-intelligent-agent-systems-46700e50250b",
+    "name": "Building Multi-Agent Architectures → Orchestrating Intelligent Agent Systems | by Akanksha Sinha",
+    "snippet": "Definition: Multi-Agent Architectures → AI systems where multiple agents interact and collaborate to achieve complex goals. Key Features: ✓ ...",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://vatsalshah.in/blog/ai-agent-orchestration-multi-agent-systems-2025",
+    "name": "AI Agent Orchestration: Multi-Agent Systems That Actually Work in 2025 - Vatsal Shah",
+    "snippet": "Sep 14, 2025 — Learn how to design multi-agent AI systems that substantially cut costs and significantly improve accuracy. Get architecture patterns and cost ...",
+    "host_name": "vatsalshah.in",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://strandsagents.com/latest/documentation/docs/user-guide/concepts/multi-agent/swarm",
+    "name": "Swarm Multi-Agent Pattern",
+    "snippet": "Swarm Multi-Agent Pattern¶. A Swarm is a collaborative agent orchestration system where multiple agents work together as a team to solve complex tasks.",
+    "host_name": "strandsagents.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

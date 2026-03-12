@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://templeos.net/what-is-templeos",
+    "name": "What is TempleOS",
+    "snippet": "TempleOS is one platform. It has one language with one font, with one word processor. There is one memory map for all tasks on all cores with no pagination, no ... Missing: documentation | Show results with: documentation",
+    "host_name": "templeos.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/383849313_TempleOS_architecture_and_principles_of_lightweight_operating_system_development",
+    "name": "(PDF) TempleOS: architecture and principles of lightweight operating",
+    "snippet": "This thesis delves into the technical architecture, development environment, and underlying philosophy of TempleOS.",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/TempleOS",
+    "name": "TempleOS - Wikipedia",
+    "snippet": "TempleOS is a biblical-themed lightweight operating system (OS) designed to be the Third Temple from the Hebrew Bible. It was created by American computer ... Missing: documentation | Show results with: documentation",
+    "host_name": "en.wikipedia.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://www.codersnotes.com/notes/a-constructive-look-at-templeos",
+    "name": "A Constructive Look At TempleOS - codersnotes.com",
+    "snippet": "TempleOS has its own programming language, HolyC. The whole operating system is written in it, except for x64 assembly in the lower-level parts. Missing: structure | Show results with: structure",
+    "host_name": "www.codersnotes.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tinkeros.github.io/WbTempleOS/Doc/FAQ.html",
+    "name": "Frequently Asked Questions - The Temple Operating System",
+    "snippet": "TempleOS is 100% independent -- it does not access the files of your primary operating system and TempleOS will work as the only operating system on your ...",
+    "host_name": "tinkeros.github.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

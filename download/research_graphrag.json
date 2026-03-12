@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://microsoft.github.io/graphrag",
+    "name": "Welcome - GraphRAG",
+    "snippet": "The GraphRAG process involves extracting a knowledge graph out of raw text, building a community hierarchy, generating summaries for these communities, and then ...\nWelcome to GraphRAG 👉 Microsoft Research Blog Post 👉 GraphRAG Arxiv Figure 1: An LLM-generated knowledge graph built using GPT-4 Turbo. GraphRAG is a structured, hierarchical approach to Retrieval Augmented Generation (RAG), as opposed to naive semantic-search approaches using plain text snippets.",
+    "host_name": "microsoft.github.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/microsoft/graphrag",
+    "name": "microsoft/graphrag: A modular graph-based Retrieval-",
+    "snippet": "The GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power ...\nThe GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs. To learn more about GraphRAG and how it can be used to enhance your LLM's ability to reason about your private data, please visit the Microsoft Research Blog Post.",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://graphrag.com/concepts/intro-to-graphrag",
+    "name": "Intro to GraphRAG - RAG with a knowledge graph",
+    "snippet": "Jul 11, 2025 — It's a set of RAG patterns that leverage a graph structure for retrieval . Each pattern demands a unique data structure, or graph pattern, to function ...",
+    "host_name": "graphrag.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@zilliz_learn/graphrag-explained-enhancing-rag-with-knowledge-graphs-3312065f99e1",
+    "name": "GraphRAG Explained: Enhancing RAG with Knowledge Graphs",
+    "snippet": "Retrieval Augmented Generation (RAG) is a technique that connects external data sources to enhance the output of large language models (LLMs).",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/research/project/graphrag",
+    "name": "Project GraphRAG - Microsoft Research",
+    "snippet": "GraphRAG ( Graphs + Retrieval Augmented Generation ) is a technique for richly understanding text datasets by combining text extraction, network analysis, and LLM ...\nGraphRAG (Graphs + Retrieval Augmented Generation) is a technique for richly understanding text datasets by combining text extraction, network analysis, and LLM prompting and summarization into a single end-to-end system.",
+    "host_name": "www.microsoft.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2501.00309v2",
+    "name": "Retrieval-Augmented Generation with Graphs (GraphRAG)",
+    "snippet": "RAG is a powerful technique that enhances downstream task execution by retrieving additional information, such as knowledge , skills, and tools from external ...",
+    "host_name": "arxiv.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://neo4j.com/blog/knowledge-graph/what-is-knowledge-graph",
+    "name": "What Is a Knowledge Graph? - Graph Database & Analytics - Neo4j",
+    "snippet": "Knowledge graphs are organized representations of real-world entities and their relationships, overlaid with one or more organizing principles.",
+    "host_name": "neo4j.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://about.gitlab.com/topics/knowledge-graph",
+    "name": "What is a knowledge graph? - GitLab",
+    "snippet": "A knowledge graph is a structured representation of the relationships between data points that represent real-world objects and concepts.",
+    "host_name": "about.gitlab.com",
+    "rank": 1,
+    "date": "Mar 6, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://shilpathota.medium.com/understanding-knowledge-graphs-for-agentic-ai-7162d018387b",
+    "name": "Understanding Knowledge graphs for Agentic AI | by Shilpa Thota - Medium",
+    "snippet": "Knowledge graphs is a powerful concept where we can represent any flow or entity relationships in a structured way.",
+    "host_name": "shilpathota.medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cognee.ai/blog/fundamentals/graph-databases-explained",
+    "name": "Graph Databases Explained: Better Way to Represent Connections",
+    "snippet": "In essence, a graph database emphasizes relationships between data items as first-class data, unlike relational databases which force ...",
+    "host_name": "www.cognee.ai",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph",
+    "name": "What Is a Knowledge Graph? | Ontotext Fundamentals",
+    "snippet": "Knowledge graphs are a collection of interlinked descriptions of entities that put data into context and enable data analytics & sharing.",
+    "host_name": "www.ontotext.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://graphrag.com/concepts/intro-to-knowledge-graphs",
+    "name": "Intro to Knowledge Graphs - GraphRAG",
+    "snippet": "A knowledge graph model is especially suitable for representing both structured and unstructured data with connected elements.",
+    "host_name": "graphrag.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]
