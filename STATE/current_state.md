@@ -8,7 +8,7 @@
 
 | Property | Value |
 |----------|-------|
-| Version | 1.3 |
+| Version | 1.4 |
 | Last Updated | 2025-01-XX |
 | Updated By | Z |
 
@@ -19,142 +19,102 @@
 | Metric | Value |
 |--------|-------|
 | **Phase** | Bootstrap - Day 1 Extended |
-| **Focus** | Interview Prep + Project Ideas |
-| **Active Projects** | 1 (Garden Business) |
+| **Focus** | Project Development |
+| **Active Projects** | 2 (Garden Business + Desert Restoration) |
 | **Pending Decisions** | 0 |
 | **Blockers** | None |
-| **Next Milestone** | Interview tomorrow, then Week 1 |
 
 ---
 
-## ✅ Completed Today
+## ✅ Active Projects
 
-### Repository Setup
-| Task | Status |
-|------|--------|
-| Create repository | ✅ Done |
-| Push to GitHub | ✅ Done |
-| CONSTITUTION.md approved | ✅ Done |
-| BYLAWS.md approved | ✅ Done |
+### 1. Garden Business (Phase 1)
+| Aspect | Status |
+|--------|--------|
+| Planning | Ready |
+| Location | TBD (Harley to identify) |
+| Interview prep | ✅ Ready for tomorrow |
+| Design concept | ✅ Complete |
 
-### Interview Prep (Tomorrow!)
-| Task | Status |
-|------|--------|
-| Talking points prepared | ✅ Done |
-| Key questions identified | ✅ Done |
-| Objection responses ready | ✅ Done |
-| Follow-up plan created | ✅ Done |
-| One-pager created | ✅ Done |
-| Visual aids generated | ✅ Done |
+**Location:** PROJECTS/garden_business/
 
-### Mock Designs
-| Task | Status |
-|------|--------|
-| Garden layout concept | ✅ Done |
-| Therapeutic programming structure | ✅ Done |
-| Olla irrigation placement | ✅ Done |
-| Budget estimates | ✅ Done |
-| Partnership model visual | ✅ Done |
+### 2. Desert Restoration (NEW)
+| Aspect | Status |
+|--------|--------|
+| Framework | ✅ Complete |
+| Techniques library | ✅ Complete |
+| Gobi mock design | ✅ Complete |
+| Other locations | Needs research |
 
-### Documentation
-| Task | Status |
-|------|--------|
-| PROJECT_IDEAS.md created | ✅ Done |
-| REPO_ANALYSIS.md created | ✅ Done |
-| Design concept documented | ✅ Done |
+**Location:** PROJECTS/desert_restoration/
 
 ---
 
 ## Interview Tomorrow — Ready
 
-**With:** Eric Haas (Primal Nature retreats)
-**Pitch:** "Gardening is recommended for psychedelic integration"
+**With:** Eric Haas (Primal Nature)
 
 **Materials Ready:**
 - ✅ Talking points
-- ✅ Key questions to ask
+- ✅ Key questions
 - ✅ Objection responses
-- ✅ One-pager (RESEARCH/one_pager.md)
-- ✅ Garden concept visual (RESEARCH/garden_concept_visual.png)
-- ✅ Partnership model visual (RESEARCH/partnership_model_visual.png)
+- ✅ One-pager
+- ✅ Visual aids
+
+---
+
+## Documents Created Today
+
+| File | Purpose |
+|------|---------|
+| PROJECT_IDEAS.md | Central idea capture |
+| REPO_ANALYSIS.md | Gap analysis |
+| RESEARCH/interview_prep_eric_haas.md | Interview prep |
+| RESEARCH/one_pager.md | Pitch document |
+| PROJECTS/garden_business/DESIGN_CONCEPT.md | Garden design |
+| PROJECTS/desert_restoration/README.md | Project overview |
+| PROJECTS/desert_restoration/STATUS.md | Project status |
+| PROJECTS/desert_restoration/FRAMEWORK.md | Location evaluation |
+| PROJECTS/desert_restoration/TECHNIQUES.md | Technique library |
+| PROJECTS/desert_restoration/locations/gobi_china.md | Gobi mock design |
 
 ---
 
 ## Repo Status
 
-| Category | Status | Completion |
-|----------|--------|------------|
-| Governance | ✅ Complete | 100% |
-| State Tracking | ✅ Complete | 100% |
-| AI System | ✅ Complete | 100% |
-| Projects | 🔄 Partial | 25% (1 of 4) |
-| Research | 🔄 Partial | 40% |
-| WIKI | ❌ Empty | 0% |
-| EXPERTISE | ❌ Empty | 0% |
-| MONITORING | ❌ Empty | 0% |
-| TEMPLATES | ❌ Empty | 0% |
-
-**Overall: ~40% complete**
-
----
-
-## What's Missing (Priority Order)
-
-### High Priority
-1. **EXPERTISE/harley_gardening.md** — Capture your knowledge
-2. **PROJECTS/collective_app/** — Document app concept
-3. **RESEARCH/horticultural_therapy.md** — MAPS details
-
-### Medium Priority
-4. **WIKI/how_to/** — Basic guides
-5. **PROJECTS/community_tools/** — Document tools concept
-6. **PROJECTS/political_party/** — Document party concept
-7. **TEMPLATES/** — Standard templates
+| Category | Completion |
+|----------|------------|
+| Governance | ✅ 100% |
+| State Tracking | ✅ 100% |
+| AI System | ✅ 100% |
+| Projects | 🔄 50% (2 of 4 active) |
+| Research | 🔄 50% |
+| WIKI | ❌ 0% |
+| EXPERTISE | ❌ 0% |
 
 ---
 
 ## Questions for Harley
 
-1. **Project ideas from ChatGPT:** What ideas did you discuss that I should add?
-2. **Collective App:** What features do you envision?
-3. **Community Tools:** What's the core concept?
-4. **Political Party:** Any specific policy ideas?
-5. **Garden location:** Where should the first garden be?
-6. **Your expertise:** What gardening knowledge should I capture?
+1. **Garden location:** Where should the first therapeutic garden be?
+2. **Desert restoration locations:** Any specific places you want researched?
+3. **Collective App:** What features do you envision?
+4. **Community Tools:** What's the core concept?
+5. **Political Party:** Any policy ideas?
+6. **Expertise to capture:** What gardening/other knowledge should I document?
 
 ---
 
-## Communication Queue
+## Next Actions
 
-### From Harley (Waiting)
-- [ ] Project ideas from ChatGPT discussions
-- [ ] Garden location preference
-- [ ] Expertise to capture
-- [ ] App/Tools/Party concept details
-
-### For ChatGPT (Via Z)
-- [ ] Netherlands political party requirements
-- [ ] Olla suppliers research
-- [ ] App platform recommendations
-
----
-
-## Recent Activity
-
-| Time | Action | By |
-|------|--------|-----|
-| Day 1 | Repository created | Z |
-| Day 1 | Governance approved | Harley |
-| Day 1 | Interview prep created | Z |
-| Day 1 | Mock designs created | Z |
-| Day 1 | Project ideas captured | Z |
-| Day 1 | Repo analysis completed | Z |
-
----
-
-## Flags
-
-*None currently*
+| Priority | Action | Owner |
+|----------|--------|-------|
+| High | Interview tomorrow | Harley |
+| High | Garden location decision | Harley |
+| Medium | Research more desert locations | Z |
+| Medium | Create Collective App concept | Z + Harley input |
+| Medium | Create Community Tools concept | Z + Harley input |
+| Low | Create WIKI how-to guides | Z |
 
 ---
 
