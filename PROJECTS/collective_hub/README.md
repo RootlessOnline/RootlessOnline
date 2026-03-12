@@ -1,0 +1,195 @@
+# Collective Hub — Project Overview
+
+> An app hub for community-focused applications. One hub, many apps.
+
+---
+
+## Project Information
+
+| Property | Value |
+|----------|-------|
+| Phase | Planning |
+| Priority | Phase 2 |
+| Platform | PWA (Progressive Web App) |
+| Budget | $0 |
+
+---
+
+## The Concept
+
+**Not one app — many apps.**
+
+The Collective Hub is like an app store, but specifically for tools that help communities:
+
+1. **The Hub** — Central place to discover and access all apps
+2. **Individual Apps** — Each solves a specific problem
+3. **Integration** — Apps share data when useful
+4. **Community-owned** — Not corporate, not for profit
+
+---
+
+## Hub Structure
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    COLLECTIVE HUB                           │
+│                                                             │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐   │
+│  │  Home    │  │   Apps   │  │   Map    │  │ Profile  │   │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘   │
+│                                                             │
+│  Home = Activity feed for your area                         │
+│  Apps = App store inside the hub                            │
+│  Map = Central map (gardens, events, tools, spaces)         │
+│  Profile = Your skills, contributions, history              │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## App Ecosystem (20 Apps)
+
+### 🌱 FOOD & GROWING (4 apps)
+| App | Purpose | Priority |
+|-----|---------|----------|
+| Garden Locator | Find gardens near you | ⭐ MVP |
+| Garden Planner | Design and manage gardens | Phase 2 |
+| Olla Manager | Track irrigation systems | Phase 2 |
+| Sun Tracker | Sunlight visualization | Phase 2 |
+
+### 👥 COMMUNITY (3 apps)
+| App | Purpose | Priority |
+|-----|---------|----------|
+| Neighbor Connection | Tinder for local events | ⭐ MVP |
+| Volunteer Tracker | Track contributions/credits | Phase 2 |
+| Community Tools | Project planners, task boards | Phase 2 |
+
+### 🤝 SHARING (3 apps)
+| App | Purpose | Priority |
+|-----|---------|----------|
+| Tool Library | Borrow/share tools | ⭐ MVP |
+| Skill Share | Exchange skills | Phase 2 |
+| Skills Network | Job/service marketplace | Phase 3 |
+
+### 📚 KNOWLEDGE (3 apps)
+| App | Purpose | Priority |
+|-----|---------|----------|
+| How-To Hub | Practical tutorials | ⭐ MVP |
+| Local Wiki | Community knowledge base | Phase 2 |
+| Learning Platform | Courses and certifications | Phase 3 |
+
+### 🗳️ CIVIC (1 app)
+| App | Purpose | Priority |
+|-----|---------|----------|
+| Local Voice | Community voting/decisions | Phase 2 |
+
+### 🧒 EDUCATION (1 app)
+| App | Purpose | Priority |
+|-----|---------|----------|
+| Kids Nature App | Children's learning | Phase 3 |
+
+### 🎧 CULTURE (1 app)
+| App | Purpose | Priority |
+|-----|---------|----------|
+| Community Media | Podcasts, videos, stories | Phase 3 |
+
+### 🤖 PLATFORM (2 apps)
+| App | Purpose | Priority |
+|-----|---------|----------|
+| Collective Dashboard | Central hub interface | ⭐ MVP (Hub itself) |
+| AI Assistant | Guide for ecosystem | Phase 2 |
+
+---
+
+## MVP Plan
+
+**Start with 4 apps:**
+
+1. **Garden Locator** — Find community gardens
+2. **Neighbor Connection** — Find events, meet neighbors
+3. **How-To Hub** — Learn practical skills
+4. **Tool Library** — Borrow/share tools
+
+**Why these 4:**
+- Create a real-world loop: Find garden → Meet people → Learn skills → Share tools → Grow together
+
+---
+
+## Technical Architecture
+
+### Platform: PWA (Progressive Web App)
+
+**Why PWA:**
+- No app store needed
+- Works on any phone
+- Installable from browser
+- $0 to launch
+
+**Stack:**
+| Component | Tool | Cost |
+|-----------|------|------|
+| Frontend | Next.js / React | Free |
+| Database | Supabase / Firebase | Free tier |
+| Maps | OpenStreetMap / Mapbox | Free tier |
+| Hosting | Vercel / Netlify | Free |
+
+### Shared Data Model
+
+```
+Users
+├── name, location, skills
+├── contributions (hours, credits)
+└── joined events, saved gardens
+
+Locations
+├── gardens, events, tool libraries
+└── community spaces
+
+Events
+├── title, location, participants
+└── time, category
+
+Knowledge
+├── tutorials, guides
+└── author, tags
+```
+
+---
+
+## Directory Structure
+
+```
+collective_hub/
+├── README.md           — This file
+├── STATUS.md           — Current status
+├── MVP.md              — MVP development plan
+├── ARCHITECTURE.md     — Technical details
+│
+├── apps/
+│   ├── food_growing/   — 4 apps
+│   ├── community/      — 3 apps
+│   ├── sharing/        — 3 apps
+│   ├── knowledge/      — 3 apps
+│   ├── civic/          — 1 app
+│   ├── education/      — 1 app
+│   ├── culture/        — 1 app
+│   └── platform/       — 2 apps
+│
+└── technical/
+    ├── pwa_structure.md
+    ├── data_model.md
+    └── shared_components.md
+```
+
+---
+
+## Provenance
+
+```
+---
+Generated by: Z (Manager AI)
+Context versions: START.md v1.0, CONSTITUTION.md v1.0
+Source: Harley + ChatGPT discussions
+Timestamp: 2025-01-XX
+---
+```
