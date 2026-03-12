@@ -6,15 +6,16 @@
 ---
 metadata:
   version: "1.0"
-  status: "draft"
+  status: "approved"
   last_updated: "2025-01-XX"
-  approved_by: "pending"
+  approved_by: "Harley (CEO, she/her)"
 
 roles:
   ceo:
     display_name: "CEO"
     description: "Human founder with final authority"
     holder: "Harley"
+    pronouns: "she/her"
     is_human: true
     permissions:
       decisions:

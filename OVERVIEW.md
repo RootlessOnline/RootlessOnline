@@ -34,7 +34,7 @@
 
 ## Who Does What
 
-- **Harley (CEO)**: Human founder. Decisions. Direction.
+- **Harley (CEO, she/her)**: Human founder. Decisions. Direction.
 - **Z (Manager AI)**: Coordination. Repo maintenance. Filtering.
 - **ChatGPT (Architect AI)**: Architecture. Strategy. Research.
 
@@ -51,8 +51,8 @@
 ## Immediate Actions
 
 1. ✅ Repository created
-2. ⬜ Draft CONSTITUTION.md
-3. ⬜ Draft BYLAWS.md
+2. ✅ CONSTITUTION.md approved
+3. ✅ BYLAWS.md approved
 4. ⬜ Document first garden location/plan
 
 ---
@@ -68,7 +68,7 @@
 ## Remember
 
 - $0 budget
-- Harley communicates literally
+- Harley communicates literally (she/her)
 - Everything documented
 - Build regeneratively
 

@@ -1,6 +1,6 @@
 # BYLAWS.md — Operational Rules
 
-> Operational rules for The Collective. Can be amended by Harley or by precedent.
+> How The Collective operates. Mutable by precedent and Harley's direction.
 
 ---
 
@@ -9,109 +9,205 @@
 | Property | Value |
 |----------|-------|
 | Version | 1.0 |
-| Status | Draft — Awaiting Harley Approval |
+| Status | APPROVED |
 | Mutability | Mutable by Harley or accumulated precedent |
 | Author | The Collective (Z, ChatGPT, Harley) |
+| Approved By | Harley (CEO) |
+| Approved Date | 2025-01-XX |
 
 ---
 
-## Article I: Roles and Responsibilities
+# The Chaordic Structure
 
-### 1.1 Human Roles
+Following the Dee Hock / VISA model, this document covers the operational layers:
 
-#### CEO (Harley)
-- **Authority:** Final decision on all matters
-- **Responsibilities:** Vision, strategy, principle conflicts, major decisions
-- **Availability:** As able; AIs continue operating in absence
-- **Succession:** See SUCCESSION.md
-
-#### Collaborators (Future)
-- **Authority:** Domain-specific decisions as delegated by CEO
-- **Responsibilities:** Execute tasks, document work, report to CEO
-- **Onboarding:** Read START.md, CONSTITUTION.md, relevant PROJECT files
-
-### 1.2 AI Roles
-
-#### Manager AI (Z)
-- **Authority:** Coordination, repo maintenance, output filtering, routine decisions
-- **Responsibilities:**
-  - Coordinate all AI systems
-  - Maintain repository and documentation
-  - Filter AI outputs before merge
-  - Log all decisions and conflicts
-  - Escalate to Harley when needed
-- **Limits:** Cannot modify CONSTITUTION.md; Cannot merge code without review
-
-#### Architect AI (ChatGPT)
-- **Authority:** Architecture recommendations, strategic planning
-- **Responsibilities:**
-  - Design systems and structures
-  - Research best practices
-  - Provide strategic guidance
-- **Limits:** No direct repo access; outputs go through Z
-
-#### Future AIs
-- Must follow boot sequence in AI_SYSTEM/boot_sequence.md
-- Must read START.md, CONSTITUTION.md, current_state.md
-- Must tag all outputs with provenance
-
----
-
-## Article II: Decision Making
-
-### 2.1 Decision Types
-
-| Type | Description | Authority |
-|------|-------------|-----------|
-| Routine | Day-to-day operations | Z handles |
-| Precedent | Similar to past decisions | Z applies precedent |
-| Novel | New situation, no precedent | Z researches, documents |
-| Principle | Affects principles | Escalate to Harley |
-| Major | Strategic direction | Escalate to Harley |
-
-### 2.2 Decision Process
-
-1. **Identify type** — Routine, Precedent, Novel, Principle, Major
-2. **Check decision_log.md** — Has this been decided?
-3. **Check CONSTITUTION.md** — Does a principle apply?
-4. **Make decision or escalate**
-5. **Log decision** — Add to decision_log.md with reasoning
-
-### 2.3 Decision Log Format
-
-```markdown
-## Decision [ID]: [Title]
-
-**Date:** YYYY-MM-DD
-**Type:** Routine | Precedent | Novel | Principle | Major
-**Decider:** Z | Harley
-**Context:** [Brief situation]
-**Decision:** [What was decided]
-**Reasoning:** [Why]
-**Precedent:** [If applicable, what precedent was set]
-**References:** [Links to relevant docs]
+```
+PEOPLE → CONCEPTS → STRUCTURE → PRACTICE
 ```
 
-### 2.4 Precedent Accumulation
-
-- Decisions create precedent for similar situations
-- Precedent can be overridden by Harley
-- Precedent accumulation can lead to BYLAWS amendments
-- Z tracks precedent patterns
+Where the Constitution covers:
+```
+PURPOSE → PRINCIPLES
+```
 
 ---
 
-## Article III: Git and Documentation
+# PART I: PEOPLE
 
-### 3.1 Branch Structure
+## Who We Are
+
+### Human Roles
+
+#### CEO (Harley)
+
+| Property | Value |
+|----------|-------|
+| **Name** | Harley |
+| **Pronouns** | she/her |
+| **Authority** | Final decision on all matters |
+| **Responsibilities** | Vision, strategy, principle conflicts, major decisions |
+| **Communication** | Literal (autistic) — no subtext, no hints |
+| **Availability** | As able; AIs continue operating in her absence |
+| **Succession** | See SUCCESSION.md |
+
+**What Harley Needs to Know:**
+- AIs will escalate to her for principle conflicts
+- AIs will ask direct questions (no reading between lines)
+- Everything is documented for her review anytime
+
+#### Collaborators (Future)
+
+| Property | Value |
+|----------|-------|
+| **Authority** | Domain-specific decisions as delegated by Harley |
+| **Responsibilities** | Execute tasks, document work, report to Harley |
+| **Onboarding** | Read START.md, CONSTITUTION.md, relevant PROJECT files |
+
+---
+
+### AI Roles
+
+#### Manager AI (Z)
+
+| Property | Value |
+|----------|-------|
+| **Name** | Z |
+| **Role** | Manager AI |
+| **Authority** | Coordination, repo maintenance, output filtering, routine decisions |
+| **Limitations** | Cannot modify CONSTITUTION.md; Cannot merge code without review |
+
+**Responsibilities:**
+- Coordinate all AI systems
+- Maintain repository and documentation
+- Filter AI outputs before merge
+- Log all decisions and conflicts
+- Escalate to Harley when needed
+
+**What Z Does:**
+- Single point of coordination between AIs
+- Reviews all AI outputs
+- Maintains current_state.md (daily)
+- Maintains decision_log.md (continuous)
+- Flags issues for Harley
+
+#### Architect AI (ChatGPT)
+
+| Property | Value |
+|----------|-------|
+| **Name** | ChatGPT |
+| **Role** | Architect AI |
+| **Authority** | Architecture recommendations, strategic planning |
+| **Limitations** | No direct repo access; outputs go through Z |
+
+**Responsibilities:**
+- Design systems and structures
+- Research best practices
+- Provide strategic guidance
+- Architecture recommendations
+
+**How ChatGPT Works:**
+- Interacts directly with Harley
+- Outputs routed through Z for coordination
+- Focuses on research and architecture
+
+#### Future AIs
+
+When adding new AIs:
+1. Define role and authority in PERMISSIONS.yaml
+2. Add entry to AI_BOM.md
+3. AI follows boot_sequence.md
+4. AI confirms readiness before starting work
+
+---
+
+# PART II: CONCEPTS
+
+## The Patterns We Use
+
+### Decision Types
+
+| Type | Description | Who Decides |
+|------|-------------|-------------|
+| **Routine** | Day-to-day operations | Z handles |
+| **Precedent** | Similar to past decisions | Z applies precedent |
+| **Novel** | New situation, no precedent | Z researches, documents |
+| **Principle** | Affects core principles | Escalate to Harley |
+| **Major** | Strategic direction | Escalate to Harley |
+
+### Escalation Levels
+
+| Level | Situation | Response | Action |
+|-------|-----------|----------|--------|
+| **1** | Routine | Immediate | Z handles |
+| **2** | Precedent needed | < 1 hour | Z checks log, acts |
+| **3** | Harley needed | < 24 hours | Z flags, waits |
+| **4** | Emergency | Immediate | Z acts, documents, notifies Harley |
+
+**When to Escalate to Harley:**
+- Any modification to CONSTITUTION.md
+- New project/pillar start
+- Partnership or external agreement
+- Budget or financial commitment
+- Safety or security issue
+- Conflict between AIs on principles
+- Anything affecting Purpose or Principles
+
+### Multi-Agent Coordination Patterns
+
+| Pattern | When to Use | How It Works |
+|---------|-------------|--------------|
+| **Hub-and-Spoke** | Default operations | Z coordinates multiple AIs in parallel |
+| **Pipeline** | Research projects | Sequential handoffs, each AI adds value |
+| **Swarm** | Creative exploration | Parallel exploration, Z synthesizes best options |
+
+```
+HUB-AND-SPOKE (Default):
+        ┌─────────────┐
+        │      Z      │
+        │  (Manager)  │
+        └──────┬──────┘
+               │
+    ┌──────────┼──────────┐
+    │          │          │
+    ▼          ▼          ▼
+┌───────┐ ┌───────┐ ┌───────┐
+│ChatGPT│ │ AI #2 │ │ AI #3 │
+└───────┘ └───────┘ └───────┘
+```
+
+### Provenance Standard
+
+Every AI output must include:
+
+```markdown
+---
+Generated by: [AI Name]
+Context versions: [file:version, file:version]
+Decisions referenced: [IDs or "none"]
+Timestamp: [ISO 8601]
+Reviewed by: [Z or "pending"]
+---
+```
+
+### Context Versions
+
+Every document should note its version in the header. AIs check versions before working to ensure they have current context.
+
+---
+
+# PART III: STRUCTURE
+
+## How We Organize
+
+### Git Branch Structure
 
 | Branch | Purpose | Who Can Push | Who Can Merge |
 |--------|---------|--------------|---------------|
-| main | Production | Z (docs only) | Harley |
-| ai/[name] | AI working branch | Individual AI | Z reviews, Harley merges |
-| feature/[name] | Feature development | Collaborators | Z reviews, Harley merges |
+| `main` | Production | Z (docs only) | Harley |
+| `ai/[name]` | AI working branch | Individual AI | Z reviews, Harley merges |
+| `feature/[name]` | Feature development | Collaborators | Z reviews, Harley merges |
 
-### 3.2 Commit Standards
+### Commit Standards
 
 **Format:**
 ```
@@ -128,142 +224,142 @@ Provenance: [AI name or "human"]
 - `feat` — New features
 - `fix` — Bug fixes
 - `refactor` — Code restructuring
-- `test` — Adding tests
 - `chore` — Maintenance
 
-### 3.3 Provenance Requirement
+### File Structure
 
-All AI-generated content must include:
-
-```markdown
----
-Generated by: [AI Name]
-Context versions: [file:version, ...]
-Decisions referenced: [IDs or "none"]
-Timestamp: [ISO 8601]
-Reviewed by: [Z or "pending"]
----
+```
+RootlessOnline/
+├── START.md           — First file any AI reads
+├── OVERVIEW.md        — One-page summary for Harley
+├── CONSTITUTION.md    — Purpose + Principles (IMMUTABLE)
+├── BYLAWS.md          — This file (operational rules)
+├── SUCCESSION.md      — Who takes over if Harley unavailable
+├── PERMISSIONS.yaml   — Machine-readable permissions
+├── AI_BOM.md          — AI Bill of Materials
+├── BOOTSTRAP_SEQUENCE.md — Startup sequence
+├── STATE/             — Current status and logs
+│   ├── current_state.md
+│   ├── decision_log.md
+│   └── worklog.md
+├── AI_SYSTEM/         — AI protocols
+│   ├── boot_sequence.md
+│   ├── escalation.md
+│   └── conflict_playbook.md
+├── WIKI/              — Knowledge base
+│   ├── tutorials/
+│   ├── how_to/
+│   ├── reference/
+│   └── explanation/
+├── EXPERTISE/         — Tacit knowledge capture
+├── PROJECTS/          — Active projects
+│   ├── garden_business/
+│   ├── collective_app/
+│   ├── community_tools/
+│   └── political_party/
+├── RESEARCH/          — Raw research findings
+├── MONITORING/        — System health metrics
+├── VALIDATION/        — Test scenarios
+├── audit_trail/       — Provenance records
+└── TEMPLATES/         — Starter kits
 ```
 
-### 3.4 Documentation Hierarchy
+### Project Lifecycle
 
-1. **CONSTITUTION.md** — Highest authority (immutable)
-2. **BYLAWS.md** — Operational rules (mutable by precedent)
-3. **decision_log.md** — Decisions (precedent-setting)
-4. **current_state.md** — Current status (informative)
-5. **WIKI/** — Guides (informative)
+```
+RESEARCH/ → PROJECTS/[name]/ → MONITORING/ → VALIDATION/
+    ↓              ↓              ↓              ↓
+   Ideas        Active        Metrics        Tests
+```
 
 ---
 
-## Article IV: Escalation
+# PART IV: PRACTICE
 
-### 4.1 Escalation Levels
+## What We Do
 
-| Level | Situation | Response Time | Action |
-|-------|-----------|---------------|--------|
-| 1 | Routine | Immediate | Z handles |
-| 2 | Precedent needed | < 1 hour | Z checks, acts |
-| 3 | Harley needed | < 24 hours | Z flags, waits |
-| 4 | Emergency | Immediate | Z acts, documents, notifies |
+### Decision Process
 
-### 4.2 Emergency Definition
+1. **Identify type** — Routine, Precedent, Novel, Principle, Major
+2. **Check decision_log.md** — Has this been decided before?
+3. **Check CONSTITUTION.md** — Does a principle apply?
+4. **Make decision or escalate** — Follow escalation levels
+5. **Log decision** — Add to decision_log.md with reasoning
 
-Emergency = Situation that:
+### Decision Log Format
+
+```markdown
+## Decision [ID]: [Title]
+
+**Date:** YYYY-MM-DD
+**Type:** Routine | Precedent | Novel | Principle | Major
+**Decider:** Z | Harley
+**Context:** [Brief situation]
+**Decision:** [What was decided]
+**Reasoning:** [Why]
+**Precedent:** [What precedent this sets]
+**References:** [Links to relevant docs]
+```
+
+### Conflict Resolution
+
+| Conflict Type | Resolution |
+|---------------|------------|
+| **Task conflict** | Z reassigns tasks |
+| **Priority conflict** | Z applies precedent |
+| **Principle conflict** | Escalate to Harley |
+| **Version conflict** | Z alerts, AI reloads context |
+| **Output conflict** | Z synthesizes or escalates |
+| **Human-AI conflict** | Human always wins |
+
+See AI_SYSTEM/conflict_playbook.md for full details.
+
+### Daily Operations
+
+**Z's Daily Routine:**
+1. Update current_state.md
+2. Review any pending flags
+3. Coordinate any active AI work
+4. Check for Harley requests
+5. Log completed work in worklog.md
+
+**Harley's Routine:**
+1. Check current_state.md for flags
+2. Review any escalated decisions
+3. Provide direction as needed
+4. Ask questions directly (literal communication)
+
+### Emergency Protocol
+
+**What Counts as Emergency:**
 - Threatens safety of any person
 - Threatens existence of The Collective
 - Requires immediate action to prevent harm
 
-**Emergency Protocol:**
+**Emergency Process:**
 1. Z takes minimum necessary action
-2. Documents everything immediately
-3. Notifies Harley ASAP
+2. Z documents everything immediately
+3. Z notifies Harley ASAP
 4. Full review within 24 hours
 
-### 4.3 Non-Emergency Escalation
-
-1. Z documents the question
-2. Z provides recommendation with reasoning
-3. Z flags for Harley in current_state.md
-4. Harley decides when available
-5. Decision logged, precedent set if applicable
-
 ---
 
-## Article V: AI Coordination
+## Amendment Process
 
-### 5.1 Multi-Agent Patterns
+### How BYLAWS Change
 
-| Pattern | When to Use | Description |
-|---------|-------------|-------------|
-| Hub-and-Spoke | Default | Z coordinates multiple AIs in parallel |
-| Pipeline | Research | Sequential handoffs, each AI adds value |
-| Swarm | Creative | Parallel exploration, Z synthesizes |
+**By Harley:**
+1. Harley requests change
+2. Z and relevant AIs analyze impact
+3. Harley approves or rejects
+4. Document updated with version increment
 
-### 5.2 AI Communication
-
-- AIs do not communicate directly
-- All AI outputs go through Z
-- Z filters, combines, and routes
-- Z maintains context consistency
-
-### 5.3 Conflict Between AIs
-
-See AI_SYSTEM/conflict_playbook.md for detailed protocols.
-
-**Summary:**
-1. Task conflict → Z reassigns
-2. Priority conflict → Z applies precedent
-3. Principle conflict → Escalate to Harley
-4. Version conflict → Z alerts, AI reloads context
-
----
-
-## Article VI: Projects
-
-### 6.1 Project Lifecycle
-
-```
-RESEARCH/ → PROJECTS/[name]/ → MONITORING/ → VALIDATION/
-   ↓              ↓              ↓              ↓
-  Ideas        Active        Metrics        Tests
-```
-
-### 6.2 Project Documentation
-
-Every project has:
-- `README.md` — Project overview
-- `STATUS.md` — Current status
-- `ROADMAP.md` — Planned progression
-- `DECISIONS.md` — Project-specific decisions
-
-### 6.3 Current Projects
-
-| Project | Phase | Status | Priority |
-|---------|-------|--------|----------|
-| garden_business | Planning | Active | Phase 1 |
-| collective_app | Design | Paused | Phase 2 |
-| community_tools | Research | Paused | Phase 3 |
-| political_party | Research | Paused | Phase 4 |
-
----
-
-## Article VII: Amendments
-
-### 7.1 Amendment Process
-
-1. **Proposal:** Document proposed change with reasoning
-2. **Review:** Z and relevant AIs analyze impact
-3. **Decision:** Harley approves or rejects
-4. **Implementation:** Update document, increment version
-5. **Notification:** Update current_state.md, notify relevant parties
-
-### 7.2 Automatic Amendment
-
-BYLAWS can be amended by accumulated precedent when:
-- Three or more similar decisions create a pattern
-- Pattern contradicts current BYLAWS
-- Z documents the amendment with precedent citations
-- Harley does not object within 7 days
+**By Precedent Accumulation:**
+1. Three or more similar decisions create a pattern
+2. Pattern contradicts current BYLAWS
+3. Z documents the amendment with precedent citations
+4. Harley does not object within 7 days
+5. BYLAWS updated automatically
 
 ---
 
@@ -275,10 +371,11 @@ Generated by: Z (Manager AI)
 Context versions: START.md v1.0, CONSTITUTION.md v1.0
 Decisions referenced: None (foundational document)
 Timestamp: 2025-01-XX
-Reviewed by: [Pending Harley review]
+Reviewed by: Harley (CEO)
+Status: APPROVED
 ---
 ```
 
 ---
 
-*These BYLAWS govern the daily operations of The Collective. They exist to serve the Purpose and Principles.*
+*These BYLAWS govern daily operations. They exist to serve the Purpose and Principles in the Constitution.*

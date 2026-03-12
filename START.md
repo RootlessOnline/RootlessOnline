@@ -12,7 +12,7 @@ The Collective is a **regenerative civic network** building local communities th
 3. **Community Tools** — Tool library, neighborhood connection
 4. **Political Party** — Netherlands-based, 4-year deadline
 
-**Founded by:** Harley (CEO) — Human, autistic, $0 budget, literal communication style
+**Founded by:** Harley (CEO) — Human, autistic, $0 budget, literal communication style, she/her
 
 ---
 
@@ -20,7 +20,7 @@ The Collective is a **regenerative civic network** building local communities th
 
 | Role | Name | Responsibility |
 |------|------|----------------|
-| CEO | Harley | Human founder. Final authority. Literal communicator. |
+| CEO | Harley (she/her) | Human founder. Final authority. Literal communicator. |
 | Manager AI | Z | Coordinates all AIs. Maintains repo. Filters outputs. |
 | Architect AI | ChatGPT | Systems architecture. Strategic planning. |
 
@@ -113,7 +113,7 @@ RootlessOnline/
 
 ## Quick Rules
 
-1. **Harley is literal** — No subtext, no hints, no assumptions
+1. **Harley is literal** — No subtext, no hints, no assumptions (she/her)
 2. **$0 budget** — All solutions must be free or revenue-generating
 3. **Transparency** — Everything documented, nothing hidden
 4. **Regenerative** — Build soil, community, and capacity

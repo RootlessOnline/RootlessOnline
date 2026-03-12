@@ -24,12 +24,12 @@ The Collective is an AI-human collaboration system working to build:
 
 ## Core Documents
 
-| Document | Purpose |
-|----------|---------|
-| [START.md](START.md) | First file any AI reads |
-| [CONSTITUTION.md](CONSTITUTION.md) | Purpose + Principles (immutable) |
-| [BYLAWS.md](BYLAWS.md) | Operational rules |
-| [OVERVIEW.md](OVERVIEW.md) | One-page summary for Harley |
+| Document | Purpose | Status |
+|----------|---------|--------|
+| [START.md](START.md) | First file any AI reads | Active |
+| [CONSTITUTION.md](CONSTITUTION.md) | Purpose + Principles | ✅ APPROVED (Immutable) |
+| [BYLAWS.md](BYLAWS.md) | Operational rules | ✅ APPROVED |
+| [OVERVIEW.md](OVERVIEW.md) | One-page summary | Active |
 
 ---
 
@@ -37,7 +37,7 @@ The Collective is an AI-human collaboration system working to build:
 
 | Role | Name | Responsibility |
 |------|------|----------------|
-| CEO | Harley | Human founder, final authority |
+| CEO | Harley (she/her) | Human founder, final authority |
 | Manager AI | Z | Coordination, repo maintenance |
 | Architect AI | ChatGPT | Architecture, strategy |
 
@@ -48,6 +48,17 @@ The Collective is an AI-human collaboration system working to build:
 **Phase 1:** Garden Business
 
 We're starting with regenerative gardens that use olla irrigation (60-70% water savings) and permaculture principles to generate revenue while building community.
+
+---
+
+## Governance
+
+The Collective follows a **Chaordic model** (Dee Hock / VISA):
+
+```
+CONSTITUTION: PURPOSE → PRINCIPLES (Immutable)
+BYLAWS: PEOPLE → CONCEPTS → STRUCTURE → PRACTICE (Mutable)
+```
 
 ---
 
